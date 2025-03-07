@@ -1,92 +1,69 @@
-
-Gizlilik Politikası
-Son Güncelleme: 15 Şubat 2025
+GİZLİLİK POLİTİKASI
+Son Güncelleme: 7 Mart 2025
 1. Giriş
-Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini
-korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken
-bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
+Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
 2. Bilgi Toplama
-Aşağıdaki bilgileri topluyoruz:
-• Google Analytics aracılığıyla kullanım verileri
-• Kaza raporları aracılığıyla uygulama performans verileri
-• Yaş grubu seçimi (0-3, 4-7, 8-11 veya 12-14 yaş)
-• Uygulama işlevselliği için gerekli teknik bilgiler
+Yalnızca çökme verisi toplanır ancak bu toplama sırasında da kesinlikle size dair kişisel veri içermez. Cihaz ID'nizi içermez. Toplanan veriler izlenmez.
 3. Bilgilerin Kullanımı
 Toplanan bilgileri şu amaçlarla kullanıyoruz:
-• Kullanıcı deneyimini iyileştirme
-• Uygulama performansını analiz etme
-• Yaşa uygun içerik sağlama
-• Google AdMob aracılığıyla reklam gösterimi
-• Teknik sorunları çözme
-4. Reklam
-• Uygulamamız Google AdMob kullanarak reklam gösterir
-• Tüm reklamlar yaşa uygundur
-• Reklam içeriği çocuk gizlilik düzenlemelerine uyar
-5. Veri Koruma
-Kullanıcı verilerini korumak için uygun güvenlik önlemlerini uygular ve çocuk gizlilik yasalarına
-uyarız.
-6. Fikri Mülkiyet
-• Tüm ses içeriği hakları münhasıran Fatma MAVİŞ'e aittir
-• Tüm görseller yapay zeka araçları kullanılarak oluşturulmuştur
-• Harmonia Kids mobil uygulaması ve içerikleri Fatma MAVİŞ'e aittir
-Kullanım Sözleşmesi
+Kullanıcı deneyimini iyileştirme
+Teknik sorunları çözme
+4. Veri Koruma
+Kullanıcı verilerini korumak için uygun güvenlik önlemlerini uygular ve çocuk gizlilik yasalarına uyarız.
+FİKRİ MÜLKİYET
+Yazar: Adil Maviş (Çocuk Gelişimi Uzmanı/SHU)
+Seslendiren: Fatma Maviş (Türk Dili ve Edebiyatı Öğretmeni/Sosyolog/SHU)
+Kitap: Terapötik Masallar (Yazar: Adil Maviş / Yayın Evi: 5.Boyut Yayınları / 2025)
+Tüm ses içeriği hakları münhasıran Fatma MAVİŞ'e aittir
+Tüm görseller yapay zeka araçları kullanılarak oluşturulmuştur
+Harmonia Kids mobil uygulaması ve içerikleri Fatma MAVİŞ'e aittir
+KULLANIM SÖZLEŞMESİ
 1. Lisans
-Kullanıcılara, uygulamayı kişisel, ticari olmayan amaçlarla kullanmaları için sınırlı, münhasır
-olmayan bir lisans verilir.
+Kullanıcılara, uygulamayı kişisel, ticari olmayan amaçlarla kullanmaları için sınırlı, münhasır olmayan bir lisans verilir.
 2. Kullanım Kısıtlamaları
 Kullanıcılar:
-• Uygulamayı kopyalayamaz veya değiştiremez
-• Uygulamadan herhangi bir içeriği dağıtamaz veya satamaz
-• Kaynak kodu çıkarmaya teşebbüs edemez
-• Uygulamayı yasa dışı amaçlarla kullanamaz
+Uygulamayı kopyalayamaz veya değiştiremez
+Uygulamadan herhangi bir içeriği dağıtamaz veya satamaz
+Kaynak kodu çıkarmaya teşebbüs edemez
+Uygulamayı yasa dışı amaçlarla kullanamaz
 3. İçerik
-• İçerik belirli yaş grupları için kategorize edilmiştir: 0-3, 4-7, 8-11 ve 12-14 yaş
-• Tüm terapötik sesli masallar tescilli içeriktir
-• Görseller kullanıcı deneyimini geliştirmek için yapay zeka ile oluşturulmuştur
+İçerik belirli yaş grupları için kategorize edilmiştir: 0-3, 4-7, 8-11 ve 12-14 yaş
+Tüm terapötik sesli masallar tescilli içeriktir
+Görseller kullanıcı deneyimini geliştirmek için yapay zeka ile oluşturulmuştur
 
-Privacy Policy & Terms of Service - Harmonia
-Kids
-English Version
-Privacy Policy
-Last Updated: February 15, 2025
+
+
+
+HARMONIA KIDS PRIVACY POLICY AND TERMS OF USE
+PRIVACY POLICY
+Last Updated: March 7, 2025
 1. Introduction
-Harmonia Kids ("we," "our," or "us") is committed to protecting the privacy of our users, especially
-children. This privacy policy explains how we collect, use, and protect information when you use
-our therapeutic storytelling application.
+Harmonia Kids ("we," "our," or "our company") values the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic story application.
 2. Information Collection
-We collect the following information:
-• Usage data through Google Analytics
-• App performance data through crash reports
-• Age group selection (0-3, 4-7, 8-11, or 12-14 years)
-• Technical information necessary for app functionality
-3. How We Use Information
-We use collected information to:
-• Improve user experience
-• Analyze app performance
-• Provide age-appropriate content
-• Display advertisements through Google AdMob
-• Fix technical issues
-4. Advertisement
-• Our app displays advertisements using Google AdMob
-• All advertisements are age-appropriate
-• Ad content follows children's privacy regulations
-5. Data Protection
-We implement appropriate security measures to protect user data and comply with children's
-privacy laws.
-6. Intellectual Property
-• All audio content rights are exclusively owned by Fatma MAVİŞ
-• All images are created using AI tools
-• The Harmonia Kids mobile application and its contents are owned by Fatma MAVİŞ
-Terms of Service
+We only collect crash data, which does not contain any personal information about you. It does not include your device ID. The collected data is not tracked.
+3. Use of Information
+We use the collected information for the following purposes:
+Improving user experience
+Solving technical issues
+4. Data Protection
+We implement appropriate security measures to protect user data and comply with child privacy laws.
+INTELLECTUAL PROPERTY
+Author: Adil Maviş (Child Development Specialist/Social Worker)
+Narrator: Fatma Maviş (Turkish Language and Literature Teacher/Sociologist/Social Worker)
+Book: Therapeutic Stories (Author: Adil Maviş / Publisher: 5.Boyut Publications / 2025)
+All audio content rights exclusively belong to Fatma MAVİŞ
+All visuals are created using artificial intelligence tools
+Harmonia Kids mobile application and its contents belong to Fatma MAVİŞ
+TERMS OF USE
 1. License
-Users are granted a limited, non-exclusive license to use the application for personal, noncommercial purposes.
+Users are granted a limited, non-exclusive license to use the application for personal, non-commercial purposes.
 2. Usage Restrictions
 Users may not:
-• Copy or modify the application
-• Distribute or sell any content from the application
-• Attempt to extract source code
-• Use the application for any illegal purposes
+Copy or modify the application
+Distribute or sell any content from the application
+Attempt to extract the source code
+Use the application for illegal purposes
 3. Content
-• Content is age-categorized for specific groups: 0-3, 4-7, 8-11, and 12-14 years
-• All therapeutic audio stories are proprietary content
-• Images are AI-generated for enhanced user experience
+Content is categorized for specific age groups: 0-3, 4-7, 8-11, and 12-14 years
+All therapeutic audio stories are proprietary content
+Visuals are created using artificial intelligence to enhance user experience
