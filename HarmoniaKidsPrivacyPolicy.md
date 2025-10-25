@@ -1,5 +1,10 @@
 # GİZLİLİK POLİTİKASI
-**Son Güncelleme: 16 Temmuz 2025**
+## Yasal Çerçeve
+Bu uygulama Apple'ın Standart Lisans Sözleşmesi (EULA) kapsamındadır: 
+https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
+Aşağıdaki ek şartlar bu EULA'yı tamamlar:
+**Son Güncelleme: 25 Ekim 2025**
 
 ## 1. Giriş
 Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
@@ -124,8 +129,11 @@ Kullanıcılar:
 ---
 
 # PRIVACY POLICY
-**Last Updated: July 16, 2025**
+**Last Updated: October 25, 2025**
+This application is subject to Apple's Standard License Agreement (EULA): 
+https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
+The following additional terms supplement this EULA:
 ## 1. Introduction
 Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
 
