@@ -5,10 +5,10 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 3 Kasım 2025**
+**Son Güncelleme: 10 Aralık 2025**
 
 ## 1. Giriş
-Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
+Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
 
 **Çocuk Gizliliği Taahhüdü**: Uygulamamız COPPA (Children's Online Privacy Protection Act) ve GDPR (General Data Protection Regulation) dahil olmak üzere uluslararası çocuk gizlilik yasalarına tam uyum sağlar.
 
@@ -58,6 +58,12 @@ Yaş bilgisi bilinmeyen kullanıcılar, güvenlik önlemi olarak **13 yaş altı
 * **Cihaz Bilgileri**: İşletim sistemi versiyonu, uygulama versiyonu (cihaz modeli veya seri numarası DEĞİL)
 
 ### 3.3 İsteğe Bağlı Veriler (Sadece 13+ Yaş)
+* **Yapay Zeka Destekli Çocuk Analizi** (İsteğe Bağlı):
+  - Çocuğun adı, yaşı ve cinsiyeti
+  - Ebeveyn tarafından tutulan günlük notları
+  - **Not:** Bu bilgiler yapay zeka analizi için işlenir, analiz sonucu sistemimizde saklanır ancak bize iletilen ham bilgiler (isim, yaş, cinsiyet, günlükler) **saklanmaz ve işlem sonrası silinir**
+  - **Not:** Bu özellik tamamen isteğe bağlıdır ve ebeveyn onayı gerektirir
+
 * **Uygulama Kullanım Verileri**: 
   - Hangi içeriklerin görüntülendiği
   - Ne kadar süre içerik izlendiği
@@ -92,6 +98,7 @@ Toplanan bilgileri **yalnızca** şu amaçlarla kullanıyoruz:
 * ✅ Kullanıcı deneyimini iyileştirme
 * ✅ İçerik önerilerini geliştirme
 * ✅ Pazarlama kampanyalarının etkinliğini ölçme (anonim)
+* ✅ Yapay zeka destekli kişiselleştirilmiş çocuk gelişim analizi (isteğe bağlı)
 
 ### 4.2 Kullanılmayan Amaçlar
 Verileriniz **ASLA** şu amaçlarla kullanılmaz:
@@ -124,6 +131,8 @@ Tüm üçüncü taraf hizmetler GDPR ve COPPA gerekliliklerini karşılar.
 * **Çökme Raporları**: 90 gün sonra otomatik silinir
 * **Analitik Veriler**: Toplanmış (aggregated) form, 14 ay
 * **Kullanıcı ID'leri**: Hashlenmiş form, hesap silininceye kadar
+* **Yapay Zeka Analiz Sonuçları**: Hesap silininceye kadar saklanır
+* **Yapay Zeka İçin İletilen Ham Veriler**: İşlem sonrası derhal silinir, saklanmaz
 
 ### 6.2 Hesap Silme Hakkı
 Kullanıcılar **istediği zaman** hesabını silebilir:
@@ -332,7 +341,7 @@ Gizlilik politikası hakkında sorularınız için:
 **Rol**: GDPR uyumu ve kullanıcı haklarının korunması
 
 ### 14.3 Genel İletişim
-**Şirket**: Harmonia Kids  
+**Şirket**: Harmonia Global / Harmonia Kids  
 **Web**: https://harmoniakids.com  
 **Destek**: support@harmoniakids.com
 
@@ -340,6 +349,7 @@ Gizlilik politikası hakkında sorularınız için:
 
 | Tarih | Versiyon | Değişiklikler |
 |-------|----------|---------------|
+| 10 Aralık 2025 | 4.0 | Yapay zeka destekli çocuk analizi özelliği, şirket adı güncellemesi (Harmonia Global) |
 | 3 Kasım 2025 | 3.0 | iOS 14+ ATT desteği, yaşa göre dinamik veri toplama detayları |
 | 25 Ekim 2025 | 2.0 | AppsFlyer child mode açıklamaları |
 | 16 Temmuz 2025 | 1.0 | İlk yayın |
@@ -353,10 +363,10 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 The following additional terms supplement this EULA:
 
-**Last Updated: November 3, 2025**
+**Last Updated: December 10, 2025**
 
 ## 1. Introduction
-Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
+Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
 
 **Child Privacy Commitment**: Our application fully complies with international child privacy laws, including COPPA (Children's Online Privacy Protection Act) and GDPR (General Data Protection Regulation).
 
@@ -406,6 +416,12 @@ Users with unknown age information are treated as **users under 13** as a securi
 * **Device Information**: Operating system version, app version (NOT device model or serial number)
 
 ### 3.3 Optional Data (Only 13+ Years)
+* **AI-Powered Child Analysis** (Optional):
+  - Child's name, age, and gender
+  - Journal notes kept by parents
+  - **Note:** This information is processed for AI analysis, the analysis result is stored in our system, but the raw information submitted to us (name, age, gender, journals) **is not stored and is deleted after processing**
+  - **Note:** This feature is completely optional and requires parental consent
+
 * **Application Usage Data**: 
   - Which content is viewed
   - How long content is watched
@@ -440,6 +456,7 @@ We use collected information **only** for the following purposes:
 * ✅ Improving user experience
 * ✅ Developing content recommendations
 * ✅ Measuring marketing campaign effectiveness (anonymous)
+* ✅ AI-powered personalized child development analysis (optional)
 
 ### 4.2 Purposes Not Used
 Your data is **NEVER** used for:
@@ -472,6 +489,8 @@ All third-party services meet GDPR and COPPA requirements.
 * **Crash Reports**: Automatically deleted after 90 days
 * **Analytics Data**: Aggregated form, 14 months
 * **User IDs**: Hashed form, until account deletion
+* **AI Analysis Results**: Stored until account deletion
+* **Raw Data Submitted for AI**: Deleted immediately after processing, not stored
 
 ### 6.2 Right to Account Deletion
 Users can delete their account **at any time**:
@@ -680,14 +699,15 @@ For questions about the privacy policy:
 **Role**: GDPR compliance and protection of user rights
 
 ### 14.3 General Contact
-**Company**: Harmonia Kids  
+**Company**: Harmonia Global / Harmonia Kids  
 **Web**: https://harmoniakids.com  
 **Support**: support@harmoniakids.com
 
 ## 15. Update History
 
 | Date | Version | Changes |
-|------|---------|---------|
+|------|---------|--------|
+| December 10, 2025 | 4.0 | AI-powered child analysis feature, company name update (Harmonia Global) |
 | November 3, 2025 | 3.0 | iOS 14+ ATT support, age-based dynamic data collection details |
 | October 25, 2025 | 2.0 | AppsFlyer child mode explanations |
 | July 16, 2025 | 1.0 | Initial release |
