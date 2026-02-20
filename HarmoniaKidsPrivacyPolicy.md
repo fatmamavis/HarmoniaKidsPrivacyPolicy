@@ -5,7 +5,7 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 10 Aralık 2025**
+**Son Güncelleme: 20 Şubat 2026**
 
 ## 1. Giriş
 Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
@@ -100,13 +100,29 @@ Toplanan bilgileri **yalnızca** şu amaçlarla kullanıyoruz:
 * ✅ Pazarlama kampanyalarının etkinliğini ölçme (anonim)
 * ✅ Yapay zeka destekli kişiselleştirilmiş çocuk gelişim analizi (isteğe bağlı)
 
-### 4.2 Kullanılmayan Amaçlar
+### 4.2 Pazarlama İletişimi ve Bildirimler
+Uygulamamızda e-posta ve bildirim sistemi üzerinden pazarlama iletişimi yapılmaktadır:
+
+**Pazarlama Kapsamı:**
+* ✅ Uygulama içi ürün ve içerik tanıtımları
+* ✅ Yeni özellik duyuruları
+* ✅ Özel kampanya ve teklifler
+* ❌ Üçüncü taraf reklam veya tanıtımlar YAPILMAZ
+
+**Açık Rıza:**
+* Kullanıcı sisteme kaydolduğunda, e-posta ve bildirim bültenine kaydolmayı açık rıza göstererek kabul eder.
+
+**Abonelikten Ayrılma Hakları:**
+* **Bildirimler**: Kullanıcılar cihaz ayarlarından bildirimleri kapatabilir
+* **E-posta Bülteni**: Profil sayfasındaki "Mail Bülteninden Ayrıl" butonu ile kolayca ayrılabilir
+
+### 4.3 Kullanılmayan Amaçlar
 Verileriniz **ASLA** şu amaçlarla kullanılmaz:
 * ❌ Üçüncü taraflara satış
 * ❌ Kişiselleştirilmiş reklam gösterimi (behavioral advertising)
 * ❌ Profil oluşturma (profiling)
 * ❌ Otomatik karar verme
-* ❌ Spam veya istenmeyen pazarlama
+* ❌ Spam veya istenmeyen üçüncü taraf pazarlama
 
 ## 5. Veri Koruma ve Güvenlik
 
@@ -349,6 +365,7 @@ Gizlilik politikası hakkında sorularınız için:
 
 | Tarih | Versiyon | Değişiklikler |
 |-------|----------|---------------|
+| 20 Şubat 2026 | 5.0 | Tek seferlik satın alınan paketler özelliği, pazarlama iletişimi ve bildirim sistemi (newsletter) |
 | 10 Aralık 2025 | 4.0 | Yapay zeka destekli çocuk analizi özelliği, şirket adı güncellemesi (Harmonia Global) |
 | 3 Kasım 2025 | 3.0 | iOS 14+ ATT desteği, yaşa göre dinamik veri toplama detayları |
 | 25 Ekim 2025 | 2.0 | AppsFlyer child mode açıklamaları |
@@ -363,7 +380,7 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 The following additional terms supplement this EULA:
 
-**Last Updated: December 10, 2025**
+**Last Updated: February 20, 2026**
 
 ## 1. Introduction
 Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
@@ -458,13 +475,29 @@ We use collected information **only** for the following purposes:
 * ✅ Measuring marketing campaign effectiveness (anonymous)
 * ✅ AI-powered personalized child development analysis (optional)
 
-### 4.2 Purposes Not Used
+### 4.2 Marketing Communications and Notifications
+Our application conducts marketing communications through email and notification systems:
+
+**Marketing Scope:**
+* ✅ In-app product and content promotions
+* ✅ New feature announcements
+* ✅ Special campaigns and offers
+* ❌ Third-party advertisements or promotions are NOT made
+
+**Explicit Consent:**
+* When users register to the system, they accept enrollment in email and notification newsletters by providing explicit consent.
+
+**Unsubscribe Rights:**
+* **Notifications**: Users can disable notifications from device settings
+* **Email Newsletter**: Users can easily unsubscribe via the "Unsubscribe from Newsletter" button on the profile page
+
+### 4.3 Purposes Not Used
 Your data is **NEVER** used for:
 * ❌ Selling to third parties
 * ❌ Showing personalized advertisements (behavioral advertising)
 * ❌ Profiling
 * ❌ Automated decision making
-* ❌ Spam or unwanted marketing
+* ❌ Spam or unwanted third-party marketing
 
 ## 5. Data Protection and Security
 
@@ -707,6 +740,7 @@ For questions about the privacy policy:
 
 | Date | Version | Changes |
 |------|---------|--------|
+| February 20, 2026 | 5.0 | One-time purchase packages feature, marketing communications and notification system (newsletter) |
 | December 10, 2025 | 4.0 | AI-powered child analysis feature, company name update (Harmonia Global) |
 | November 3, 2025 | 3.0 | iOS 14+ ATT support, age-based dynamic data collection details |
 | October 25, 2025 | 2.0 | AppsFlyer child mode explanations |
@@ -728,7 +762,7 @@ For questions about the privacy policy:
 ---
 
 # KULLANIM SÖZLEŞMESİ / TERMS OF USE
-**Son Güncelleme / Last Updated: 16 Temmuz / July 16, 2025**
+**Son Güncelleme / Last Updated: 20 Şubat / February 20, 2026**
 
 ## 1. Lisans / License
 Kullanıcılara, uygulamayı kişisel, ticari olmayan amaçlarla kullanmaları için sınırlı, münhasır olmayan bir lisans verilir. / Users are granted a limited, non-exclusive license to use the application for personal, non-commercial purposes.
@@ -773,7 +807,55 @@ Kullanıcılar / Users may not:
 * Ücretsiz deneme süresinin bitiminden 24 saat önce iptal edilmezse, seçilen abonelik otomatik olarak başlar ve ücret tahsil edilir. / If not cancelled 24 hours before the end of the free trial period, the selected subscription automatically begins and charges apply.
 * Ücretsiz deneme hakkı kullanıcı başına bir kez kullanılabilir. / Free trial rights can only be used once per user.
 
-## 5. İçerik / Content
+### 4.6 Tek Seferlik Satın Alınan Paketler / One-Time Purchase Packages
+
+**Paket Tanımı / Package Definition:**
+* Uygulamamızda tek seferlik satın alınabilen içerik paketleri sunulmaktadır. / Our application offers content packages that can be purchased one-time.
+* Bu paketler abonelik gerektirmez ve tek ödeme ile satın alınır. / These packages do not require subscription and are purchased with a single payment.
+
+**İçerik Erişimi / Content Access:**
+* Satın alınan paket kapsamındaki içeriklere, paket açıklamasında belirtilen süre boyunca erişim sağlanır. / Access to content within the purchased package is provided for the duration specified in the package description.
+* Erişim süresi paket satın alma tarihinden itibaren başlar. / The access period begins from the package purchase date.
+* Süre bitiminde içeriklere erişim sona erer. / Access to content ends when the period expires.
+
+**İptal ve İade Politikası / Cancellation and Refund Policy:**
+* Tek seferlik satın alınan paketlerin iptal ve iade işlemleri tamamen Google Play Store ve Apple App Store'un kendi iade politikalarına tabidir. / Cancellation and refund of one-time purchase packages are entirely subject to Google Play Store and Apple App Store's own refund policies.
+* İade talepleri için ilgili platform sağlayıcısına (Google/Apple) başvurulmalıdır. / For refund requests, please contact the relevant platform provider (Google/Apple).
+* Uygulama içinden doğrudan iade işlemi yapılamamaktadır. / Direct refunds cannot be processed from within the application.
+
+**Platform İade Politikaları / Platform Refund Policies:**
+* Apple App Store: https://support.apple.com/tr-tr/HT204084
+* Google Play Store: https://support.google.com/googleplay/answer/2479637
+
+## 5. Pazarlama İletişimi ve Bildirimler / Marketing Communications and Notifications
+
+### 5.1 Bülten Sistemi / Newsletter System
+E-posta ve uygulama içi bildirimler aracılığıyla pazarlama iletişimi yapılmaktadır. / Marketing communications are conducted through email and in-app notifications.
+
+**İletişim Kapsamı / Communication Scope:**
+* ✅ Uygulama içi ürün ve içerik tanıtımları / In-app product and content promotions
+* ✅ Yeni özellik ve içerik duyuruları / New feature and content announcements
+* ✅ Özel kampanya ve teklifler / Special campaigns and offers
+* ✅ Uygulama güncellemeleri / App updates
+* ❌ Üçüncü taraf reklam veya tanıtımlar YAPILMAZ / Third-party advertisements or promotions are NOT made
+
+### 5.2 Açık Rıza / Explicit Consent
+* Bir kullanıcı sisteme kaydolduğunda, e-posta ve bildirim bültenine kaydolmayı açık rıza göstererek kabul eder. / When a user registers to the system, they accept enrollment in email and notification newsletters by providing explicit consent.
+* Kayıt işlemi sırasında kullanıcı bu koşulları kabul etmiş sayılır. / By registering, the user is considered to have accepted these terms.
+
+### 5.3 Abonelikten Ayrılma / Unsubscribing
+
+**Bildirimler / Notifications:**
+* Kullanıcılar cihaz ayarlarından uygulama bildirimlerini kapatabilir. / Users can disable app notifications from device settings.
+* iOS: Ayarlar > Bildirimler > Harmonia Kids / iOS: Settings > Notifications > Harmonia Kids
+* Android: Ayarlar > Uygulamalar > Harmonia Kids > Bildirimler / Android: Settings > Apps > Harmonia Kids > Notifications
+
+**E-posta Bülteni / Email Newsletter:**
+* Profil sayfasında bulunan "Mail Bülteninden Ayrıl" butonu ile kolayca ayrılabilirsiniz. / You can easily unsubscribe via the "Unsubscribe from Newsletter" button on the profile page.
+* Ayrılma işlemi anında geçerli olur. / Unsubscription takes effect immediately.
+* E-posta bülteninden ayrılma, uygulama içi bildirimleri etkilemez. / Unsubscribing from email newsletter does not affect in-app notifications.
+
+## 6. İçerik / Content
 * İçerik belirli yaş grupları için kategorize edilmiştir: 0-3, 4-7, 8-11 ve 12-14 yaş / Content is categorized for specific age groups: 0-3, 4-7, 8-11, and 12-14 years
 * Tüm terapötik sesli masallar tescilli içeriktir / All therapeutic audio stories are proprietary content
 * Görseller kullanıcı deneyimini geliştirmek için yapay zeka ile oluşturulmuştur / Images are created with artificial intelligence to enhance user experience
