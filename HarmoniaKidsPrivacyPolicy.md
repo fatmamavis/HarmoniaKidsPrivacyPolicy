@@ -5,7 +5,7 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 20 Şubat 2026**
+**Son Güncelleme: 25 Şubat 2026**
 
 ## 1. Giriş
 Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
@@ -365,6 +365,7 @@ Gizlilik politikası hakkında sorularınız için:
 
 | Tarih | Versiyon | Değişiklikler |
 |-------|----------|---------------|
+| 25 Şubat 2026 | 5.1 | Paket içerik güncelleme hakkı maddesi eklendi |
 | 20 Şubat 2026 | 5.0 | Tek seferlik satın alınan paketler özelliği, pazarlama iletişimi ve bildirim sistemi (newsletter) |
 | 10 Aralık 2025 | 4.0 | Yapay zeka destekli çocuk analizi özelliği, şirket adı güncellemesi (Harmonia Global) |
 | 3 Kasım 2025 | 3.0 | iOS 14+ ATT desteği, yaşa göre dinamik veri toplama detayları |
@@ -380,7 +381,7 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 The following additional terms supplement this EULA:
 
-**Last Updated: February 20, 2026**
+**Last Updated: February 25, 2026**
 
 ## 1. Introduction
 Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
@@ -740,6 +741,7 @@ For questions about the privacy policy:
 
 | Date | Version | Changes |
 |------|---------|--------|
+| February 25, 2026 | 5.1 | Package content update rights clause added |
 | February 20, 2026 | 5.0 | One-time purchase packages feature, marketing communications and notification system (newsletter) |
 | December 10, 2025 | 4.0 | AI-powered child analysis feature, company name update (Harmonia Global) |
 | November 3, 2025 | 3.0 | iOS 14+ ATT support, age-based dynamic data collection details |
@@ -817,6 +819,9 @@ Kullanıcılar / Users may not:
 * Satın alınan paket kapsamındaki içeriklere, paket açıklamasında belirtilen süre boyunca erişim sağlanır. / Access to content within the purchased package is provided for the duration specified in the package description.
 * Erişim süresi paket satın alma tarihinden itibaren başlar. / The access period begins from the package purchase date.
 * Süre bitiminde içeriklere erişim sona erer. / Access to content ends when the period expires.
+
+**Paket İçerik Güncelleme Hakkı / Package Content Update Rights:**
+* Satılan paket hakları içerikleri, paket satın alımı sonrasında dahil uzman ekip tarafından paket içerikleri değiştirilebilir veya güncellenebilir. / The content of sold package rights may be changed or updated by the expert team after the package purchase.
 
 **İptal ve İade Politikası / Cancellation and Refund Policy:**
 * Tek seferlik satın alınan paketlerin iptal ve iade işlemleri tamamen Google Play Store ve Apple App Store'un kendi iade politikalarına tabidir. / Cancellation and refund of one-time purchase packages are entirely subject to Google Play Store and Apple App Store's own refund policies.
