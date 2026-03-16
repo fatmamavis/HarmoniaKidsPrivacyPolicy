@@ -5,100 +5,85 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 25 Şubat 2026**
+**Son Güncelleme: 16 Mart 2026**
 
 ## 1. Giriş
-Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
+Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
 
-**Çocuk Gizliliği Taahhüdü**: Uygulamamız COPPA (Children's Online Privacy Protection Act) ve GDPR (General Data Protection Regulation) dahil olmak üzere uluslararası çocuk gizlilik yasalarına tam uyum sağlar.
+**Uygulama Kullanım Modeli**: Harmonia Kids, **ebeveyn eşliğinde** çocuklara terapötik masallar dinleten bir uygulamadır. Uygulamamızın birincil kullanıcıları ve müşterileri **ebeveynlerdir**. Çocuklar uygulamayı doğrudan kullanmaz, ebeveynlerin kontrolünde içerik dinlerler.
 
-## 2. Yaşa Göre Veri Toplama Politikası
+**Gizlilik Taahhüdü**: Uygulamamız GDPR (General Data Protection Regulation) ve ilgili uluslararası gizlilik yasalarına uyum sağlar.
 
-### 2.1 13 Yaş Altı Kullanıcılar (Çocuklar)
-**Çocuklarınızın gizliliğini korumak bizim önceliğimizdir.**
+## 2. Veri Toplama Politikası
 
-13 yaş altı kullanıcılar için:
-* ❌ **Kişisel bilgi toplanmaz** (isim, e-posta, telefon, konum vb.)
-* ❌ **Reklam takibi yapılmaz** (IDFA/Android ID toplanmaz)
-* ❌ **Davranışsal pazarlama yoktur**
-* ✅ **Sadece anonim çökme raporları** (uygulama iyileştirme için)
-* ✅ **Kullanıcı ID'leri hashlenmiş** (şifrelenmiş) formatta
-* ✅ **Ebeveyn onayı olmadan veri paylaşımı yapılmaz**
+### 2.1 Hedef Kitle
+Uygulamamızın hedef kitlesi **ebeveynlerdir**. Çocuklar:
+* Uygulamayı doğrudan kullanmaz
+* Hesap oluşturmaz
+* Ebeveyn gözetiminde içerik dinler
 
-**Teknik Korumalar:**
-* Firebase Analytics: KAPALI
-* AppsFlyer: Child Mode (reklam tanımlayıcıları devre dışı)
-* ATT Dialog (iOS 14+): Gösterilmez
-* Google Analytics: Veri toplama devre dışı
+Bu nedenle tüm veri toplama ve pazarlama faaliyetleri ebeveynlere yöneliktir.
 
-### 2.2 13 Yaş Üstü Kullanıcılar
-13 yaş ve üzeri kullanıcılar için sınırlı veri toplama:
+### 2.2 Toplanan Veriler
+Tüm kullanıcılar (ebeveynler) için:
+* ✅ **Hesap bilgileri** (Google/Apple ile giriş - hashlenmiş kullanıcı ID)
 * ✅ **Anonim kullanım istatistikleri** (uygulama iyileştirme için)
 * ✅ **Çökme raporları** (teknik sorun çözümü için)
-* ✅ **Analitik veriler** (Google Analytics - anonim)
-* ✅ **Pazarlama performans verileri** (AppsFlyer - anonim)
-* ⚠️ **ATT izni** (iOS 14+, isteğe bağlı)
+* ✅ **Analitik veriler** (Firebase Analytics, AppsFlyer, Meta/Facebook SDK)
+* ✅ **Pazarlama attribution verileri** (reklam kampanya performansı)
+* ✅ **ATT izni** (iOS 14+, kullanıcı onayı ile)
 
-**Önemli Not:** Tüm kullanıcı ID'leri SHA-256 algoritması ile hashlenmiş (şifrelenmiş) formatta saklanır. Hiçbir koşulda düz metin olarak kişisel bilgi toplanmaz.
-
-### 2.3 Bilinmeyen Yaş Kullanıcıları
-Yaş bilgisi bilinmeyen kullanıcılar, güvenlik önlemi olarak **13 yaş altı kullanıcı gibi** işlem görür ve maksimum koruma sağlanır.
+**Önemli Not:** Tüm kullanıcı ID'leri SHA-256 algoritması ile hashlenmiş (şifrelenmiş) formatta saklanır.
 
 ## 3. Toplanan Bilgiler (Detaylı)
 
-### 3.1 Zorunlu Bilgiler (Tüm Kullanıcılar)
+### 3.1 Zorunlu Bilgiler
 * **Hesap Kimlik Doğrulama**: Google veya Apple hesabınız üzerinden giriş yapıldığında, sadece kimlik doğrulama için gereken minimum bilgiler (kullanıcı ID'si - hashlenmiş) alınır.
-* **Yaş Kategorisi**: Yaş grubuna uygun içerik sunmak ve çocuk gizlilik yasalarına uyum sağlamak için yaş bilgisi toplanır. **Not:** Tam doğum tarihi değil, sadece yaş kategorisi saklanır.
 
-### 3.2 Teknik Veriler (Tüm Kullanıcılar)
+### 3.2 Teknik Veriler
 * **Çökme Verileri**: Uygulama performansını iyileştirmek için Firebase Crashlytics aracılığıyla toplanan teknik hatalar. Bu veriler:
   - Kişisel bilgilerinizi içermez
   - Cihaz ID'nizi içermez
   - Sadece hata logları ve teknik detaylar
 * **Cihaz Bilgileri**: İşletim sistemi versiyonu, uygulama versiyonu (cihaz modeli veya seri numarası DEĞİL)
 
-### 3.3 İsteğe Bağlı Veriler (Sadece 13+ Yaş)
-* **Yapay Zeka Destekli Çocuk Analizi** (İsteğe Bağlı):
-  - Çocuğun adı, yaşı ve cinsiyeti
-  - Ebeveyn tarafından tutulan günlük notları
-  - **Not:** Bu bilgiler yapay zeka analizi için işlenir, analiz sonucu sistemimizde saklanır ancak bize iletilen ham bilgiler (isim, yaş, cinsiyet, günlükler) **saklanmaz ve işlem sonrası silinir**
-  - **Not:** Bu özellik tamamen isteğe bağlıdır ve ebeveyn onayı gerektirir
-
+### 3.3 Pazarlama ve Attribution Verileri
 * **Uygulama Kullanım Verileri**: 
   - Hangi içeriklerin görüntülendiği
   - Ne kadar süre içerik izlendiği
   - Hangi özelliklerin kullanıldığı
-  - **Not:** Bu veriler anonim ve toplanmış (aggregated) formdadır
   
-* **Analitik Veriler** (Google Analytics):
+* **Analitik Veriler** (Firebase Analytics):
   - Sayfa görüntülemeleri
   - Oturum süreleri
   - Uygulama içi navigasyon
-  - **Not:** IP adresi anonimleştirilir, tam konum toplanmaz
+  - **Not:** IP adresi anonimleştirilir
   
-* **Pazarlama Verileri** (AppsFlyer):
+* **Attribution Verileri** (AppsFlyer & Meta/Facebook SDK):
   - Reklam kampanya performansı
-  - Uygulama yüklenme kaynağı (attribution)
-  - Kullanıcı etkileşim metrikleri
-  - **Not:** Kişiselleştirilmiş reklam profili oluşturulmaz
+  - Uygulama yüklenme kaynağı
+  - Dönüşüm metrikleri
+  - iOS: IDFA (ATT izni ile)
+  - Android: GAID (Google Advertising ID)
+
+* **Yapay Zeka Destekli Çocuk Analizi** (İsteğe Bağlı):
+  - Çocuğun adı, yaşı ve cinsiyeti
+  - Ebeveyn tarafından tutulan günlük notları
+  - **Not:** Ham veriler işlem sonrası derhal silinir, saklanmaz
 
 ## 4. Bilgilerin Kullanımı
 
 ### 4.1 Kullanım Amaçları
 Toplanan bilgileri **yalnızca** şu amaçlarla kullanıyoruz:
 
-**Tüm Kullanıcılar İçin:**
 * ✅ Hesap oluşturma ve kimlik doğrulama
-* ✅ Yaş grubuna uygun içerik sunma (0-3, 4-7, 8-11, 12-14 yaş)
 * ✅ Teknik sorunları tespit etme ve çözme
 * ✅ Uygulama performansını iyileştirme
-* ✅ Güvenlik ve dolandırıcılık önleme
-
-**Sadece 13+ Yaş İçin:**
 * ✅ Kullanıcı deneyimini iyileştirme
 * ✅ İçerik önerilerini geliştirme
-* ✅ Pazarlama kampanyalarının etkinliğini ölçme (anonim)
-* ✅ Yapay zeka destekli kişiselleştirilmiş çocuk gelişim analizi (isteğe bağlı)
+* ✅ Pazarlama kampanyalarının etkinliğini ölçme
+* ✅ Reklam attribution ve dönüşüm takibi
+* ✅ Güvenlik ve dolandırıcılık önleme
 
 ### 4.2 Pazarlama İletişimi ve Bildirimler
 Uygulamamızda e-posta ve bildirim sistemi üzerinden pazarlama iletişimi yapılmaktadır:
@@ -119,9 +104,6 @@ Uygulamamızda e-posta ve bildirim sistemi üzerinden pazarlama iletişimi yapı
 ### 4.3 Kullanılmayan Amaçlar
 Verileriniz **ASLA** şu amaçlarla kullanılmaz:
 * ❌ Üçüncü taraflara satış
-* ❌ Kişiselleştirilmiş reklam gösterimi (behavioral advertising)
-* ❌ Profil oluşturma (profiling)
-* ❌ Otomatik karar verme
 * ❌ Spam veya istenmeyen üçüncü taraf pazarlama
 
 ## 5. Veri Koruma ve Güvenlik
@@ -183,14 +165,12 @@ Kullanıcılar **istediği zaman** hesabını silebilir:
 ### 7.2 Analitik Hizmetleri
 
 **Google Analytics (Firebase)**
-* **Yaş Kısıtı**: Sadece 13+ yaş
 * **Toplanan Veri**: Anonim sayfa görüntülemeleri, oturum süreleri
 * **IP Anonimleştirme**: Aktif
 * **Gizlilik Politikası**: https://firebase.google.com/support/privacy
 * **Opt-Out**: iOS/Android sistem ayarlarından "Ad Tracking" kapatılabilir
 
 **Firebase Crashlytics**
-* **Yaş Kısıtı**: Tüm kullanıcılar (anonim)
 * **Toplanan Veri**: Çökme logları, teknik hatalar
 * **Kişisel Bilgi**: İçermez
 * **Gizlilik Politikası**: https://firebase.google.com/support/privacy
@@ -198,18 +178,24 @@ Kullanıcılar **istediği zaman** hesabını silebilir:
 ### 7.3 Pazarlama ve Attribution Hizmetleri
 
 **AppsFlyer**
-* **Yaş Kısıtı**: Sadece 13+ yaş
-* **Child Mode**: 13 yaş altı için otomatik aktif
-* **Toplanan Veri**: 
-  - 13+ yaş: Reklam performansı, yüklenme kaynağı
-  - <13 yaş: Sadece anonim install sayısı (IDFA/Android ID YOK)
+* **Toplanan Veri**: Reklam performansı, yüklenme kaynağı, attribution verileri
+* **iOS**: IDFA (ATT izni ile)
+* **Android**: GAID (Google Advertising ID)
 * **Gizlilik Politikası**: https://www.appsflyer.com/privacy-policy/
 * **Opt-Out**: ATT dialog ile (iOS), sistem ayarlarından (Android)
+
+**Meta/Facebook SDK**
+* **Toplanan Veri**: Reklam kampanya performansı, dönüşüm tracking, attribution
+* **iOS 14+**: App Tracking Transparency (ATT) izni ile
+* **SKAdNetwork**: iOS privacy-preserving attribution
+* **AEM**: Aggregated Event Measurement (iOS 14+)
+* **Gizlilik Politikası**: https://www.facebook.com/privacy/policy/
+* **Opt-Out**: ATT dialog ile (iOS), Facebook uygulama ayarlarından (Android)
+* **Uygulama ID**: 2393573247695312
 
 ### 7.4 Abonelik ve Ödeme Hizmetleri
 
 **RevenueCat**
-* **Yaş Kısıtı**: Tüm kullanıcılar
 * **Toplanan Veri**: Abonelik durumu, satın alma geçmişi (hashlenmiş user ID ile)
 * **Kişisel Bilgi**: İçermez
 * **Ödeme Bilgileri**: App Store/Play Store tarafından işlenir, bize iletilmez
@@ -224,36 +210,32 @@ Kullanıcılar **istediği zaman** hesabını silebilir:
 
 ### 7.5 Veri Güvenliği Önlemleri (Üçüncü Taraflar)
 * ✅ **GDPR Uyumlu**: Tüm hizmetler GDPR gerekliliklerini karşılar
-* ✅ **COPPA Sertifikalı**: Çocuk verisi işleme sertifikaları mevcut
 * ✅ **Veri İşleme Anlaşmaları**: Yazılı DPA (Data Processing Agreement) imzalanmış
 * ✅ **Düzenli Denetim**: Yıllık güvenlik denetimleri
 
 **Kullanıcı Hakkı**: Bu hizmetleri kullanmadan önce ilgili gizlilik politikalarını inceleme hakkına sahipsiniz.
 
-## 8. Çocuk Gizliliği (COPPA/GDPR-K Uyumu)
+## 8. Ebeveyn Kontrolü ve Çocuk Güvenliği
 
-### 8.1 Ebeveyn Onayı
-* **13 yaş altı çocuklar**: Ebeveyn onayı olmadan kişisel veri toplanmaz
-* **Ebeveyn Kontrolleri**: Çocuğun hesabını yönetme ve silme hakkı
-* **İletişim**: Ebeveynler şu e-postadan bize ulaşabilir: privacy@harmoniakids.com
+### 8.1 Uygulama Kullanım Modeli
+Harmonia Kids, **ebeveyn eşliğinde** kullanılan bir uygulamadır:
+* ✅ Ebeveynler hesap oluşturur ve yönetir
+* ✅ Ebeveynler içerik seçer ve oynatır
+* ✅ Çocuklar ebeveyn gözetiminde dinler
+* ✅ Tüm satın almalar ebeveyn kontrolünde
 
-### 8.2 Çocuk Verilerinin Korunması
-* ❌ Kişisel bilgi toplama yok
-* ❌ Davranışsal profilleme yok
-* ❌ Targeted advertising yok
-* ✅ Age-appropriate content (yaşa uygun içerik)
-* ✅ Parental controls (ebeveyn kontrolleri)
+### 8.2 Çocuk İçerik Güvenliği
+* ✅ Tüm içerikler uzman pedagog ve çocuk gelişim uzmanları tarafından hazırlanır
+* ✅ Yaşa uygun içerik kategorileri (0-3, 4-7, 8-11, 12-14)
+* ✅ Terapötik ve gelişimsel içerikler
+* ✅ Reklamsız deneyim
 
-### 8.3 COPPA Uyum Tablosu
-
-| Gereksinim | Durum | Açıklama |
-|------------|-------|----------|
-| Ebeveyn bildirimi | ✅ | Bu politikada açıklanmış |
-| Veri toplama sınırı | ✅ | Minimum veri toplama |
-| Ebeveyn onayı | ✅ | Kişisel veri toplanmıyor (onay gerektiren yok) |
-| Veri erişimi | ✅ | Ebeveynler iletişime geçebilir |
-| Veri silme | ✅ | Hesap silme özelliği mevcut |
-| Güvenlik | ✅ | SHA-256 hashing, HTTPS |
+### 8.3 Ebeveyn Kontrolleri
+* **Hesap Yönetimi**: Tam kontrol ebeveynde
+* **İçerik Erişimi**: Ebeveyn tarafından seçilir
+* **Satın Alma**: App Store/Play Store ebeveyn kontrolleri ile
+* **Hesap Silme**: Ebeveyn istediği zaman silebilir
+* **İletişim**: Ebeveynler privacy@harmoniakids.com adresinden bize ulaşabilir
 
 ## 9. Uluslararası Veri Aktarımı
 
@@ -365,6 +347,7 @@ Gizlilik politikası hakkında sorularınız için:
 
 | Tarih | Versiyon | Değişiklikler |
 |-------|----------|---------------|
+| 16 Mart 2026 | 6.0 | Ebeveyn odaklı veri toplama politikası, Meta/Facebook SDK entegrasyonu, yaş bazlı kısıtlamaların kaldırılması, ATT ve full attribution desteği |
 | 25 Şubat 2026 | 5.1 | Paket içerik güncelleme hakkı maddesi eklendi |
 | 20 Şubat 2026 | 5.0 | Tek seferlik satın alınan paketler özelliği, pazarlama iletişimi ve bildirim sistemi (newsletter) |
 | 10 Aralık 2025 | 4.0 | Yapay zeka destekli çocuk analizi özelliği, şirket adı güncellemesi (Harmonia Global) |
@@ -381,100 +364,86 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 The following additional terms supplement this EULA:
 
-**Last Updated: February 25, 2026**
+**Last Updated: March 16, 2026**
 
 ## 1. Introduction
-Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
+Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
 
-**Child Privacy Commitment**: Our application fully complies with international child privacy laws, including COPPA (Children's Online Privacy Protection Act) and GDPR (General Data Protection Regulation).
+**Application Usage Model**: Harmonia Kids is an application that plays therapeutic stories to children **under parental supervision**. The primary users and customers of our application are **parents**. Children do not use the application directly; they listen to content under parental control.
 
-## 2. Age-Based Data Collection Policy
+**Privacy Commitment**: Our application complies with GDPR (General Data Protection Regulation) and relevant international privacy laws.
 
-### 2.1 Users Under 13 Years Old (Children)
-**Protecting your children's privacy is our priority.**
+## 2. Data Collection Policy
 
-For users under 13 years old:
-* ❌ **No personal information collected** (name, email, phone, location, etc.)
-* ❌ **No ad tracking** (no IDFA/Android ID collection)
-* ❌ **No behavioral marketing**
-* ✅ **Only anonymous crash reports** (for app improvement)
-* ✅ **User IDs are hashed** (encrypted format)
-* ✅ **No data sharing without parental consent**
+### 2.1 Target Audience
+The target audience of our application is **parents**. Children:
+* Do not use the application directly
+* Do not create accounts
+* Listen to content under parental supervision
 
-**Technical Protections:**
-* Firebase Analytics: DISABLED
-* AppsFlyer: Child Mode (advertising identifiers disabled)
-* ATT Dialog (iOS 14+): Not shown
-* Google Analytics: Data collection disabled
+Therefore, all data collection and marketing activities are directed at parents.
 
-### 2.2 Users 13 Years and Older
-Limited data collection for users 13 years and older:
+### 2.2 Collected Data
+For all users (parents):
+* ✅ **Account information** (Google/Apple sign-in - hashed user ID)
 * ✅ **Anonymous usage statistics** (for app improvement)
-* ✅ **Crash reports** (for technical problem solving)
-* ✅ **Analytics data** (Google Analytics - anonymous)
-* ✅ **Marketing performance data** (AppsFlyer - anonymous)
-* ⚠️ **ATT permission** (iOS 14+, optional)
+* ✅ **Crash reports** (for technical issue resolution)
+* ✅ **Analytics data** (Firebase Analytics, AppsFlyer, Meta/Facebook SDK)
+* ✅ **Marketing attribution data** (ad campaign performance)
+* ✅ **ATT permission** (iOS 14+, with user consent)
 
-**Important Note:** All user IDs are stored in hashed (encrypted) format using SHA-256 algorithm. Personal information is never collected in plain text.
-
-### 2.3 Users with Unknown Age
-Users with unknown age information are treated as **users under 13** as a security measure, with maximum protection provided.
+**Important Note:** All user IDs are stored in hashed (encrypted) format using SHA-256 algorithm.
+**Important Note:** All user IDs are stored in hashed (encrypted) format using SHA-256 algorithm.
 
 ## 3. Information Collected (Detailed)
 
-### 3.1 Required Information (All Users)
+### 3.1 Required Information
 * **Account Authentication**: When signing in through Google or Apple account, only minimum information required for authentication (user ID - hashed) is obtained.
-* **Age Category**: Age information is collected to provide age-appropriate content and comply with child privacy laws. **Note:** Only age category is stored, not full birth date.
 
-### 3.2 Technical Data (All Users)
+### 3.2 Technical Data
 * **Crash Data**: Technical errors collected through Firebase Crashlytics to improve app performance. This data:
   - Does not contain personal information
   - Does not contain device ID
   - Only error logs and technical details
 * **Device Information**: Operating system version, app version (NOT device model or serial number)
 
-### 3.3 Optional Data (Only 13+ Years)
-* **AI-Powered Child Analysis** (Optional):
-  - Child's name, age, and gender
-  - Journal notes kept by parents
-  - **Note:** This information is processed for AI analysis, the analysis result is stored in our system, but the raw information submitted to us (name, age, gender, journals) **is not stored and is deleted after processing**
-  - **Note:** This feature is completely optional and requires parental consent
-
+### 3.3 Marketing and Attribution Data
 * **Application Usage Data**: 
   - Which content is viewed
   - How long content is watched
   - Which features are used
-  - **Note:** This data is in anonymous and aggregated form
   
-* **Analytics Data** (Google Analytics):
+* **Analytics Data** (Firebase Analytics):
   - Page views
   - Session durations
   - In-app navigation
-  - **Note:** IP address is anonymized, full location not collected
+  - **Note:** IP address is anonymized
   
-* **Marketing Data** (AppsFlyer):
+* **Attribution Data** (AppsFlyer & Meta/Facebook SDK):
   - Advertising campaign performance
-  - App installation source (attribution)
-  - User interaction metrics
-  - **Note:** No personalized advertising profile created
+  - App installation source
+  - Conversion metrics
+  - iOS: IDFA (with ATT permission)
+  - Android: GAID (Google Advertising ID)
+
+* **AI-Powered Child Analysis** (Optional):
+  - Child's name, age, and gender
+  - Journal notes kept by parents
+  - **Note:** Raw data is immediately deleted after processing, not stored
 
 ## 4. Use of Information
 
 ### 4.1 Usage Purposes
 We use collected information **only** for the following purposes:
 
-**For All Users:**
 * ✅ Account creation and authentication
-* ✅ Providing age-appropriate content (0-3, 4-7, 8-11, 12-14 years)
 * ✅ Detecting and solving technical issues
 * ✅ Improving app performance
-* ✅ Security and fraud prevention
-
-**Only for 13+ Years:**
 * ✅ Improving user experience
 * ✅ Developing content recommendations
-* ✅ Measuring marketing campaign effectiveness (anonymous)
-* ✅ AI-powered personalized child development analysis (optional)
+* ✅ Measuring marketing campaign effectiveness
+* ✅ Ad attribution and conversion tracking
+* ✅ Security and fraud prevention
 
 ### 4.2 Marketing Communications and Notifications
 Our application conducts marketing communications through email and notification systems:
@@ -495,9 +464,6 @@ Our application conducts marketing communications through email and notification
 ### 4.3 Purposes Not Used
 Your data is **NEVER** used for:
 * ❌ Selling to third parties
-* ❌ Showing personalized advertisements (behavioral advertising)
-* ❌ Profiling
-* ❌ Automated decision making
 * ❌ Spam or unwanted third-party marketing
 
 ## 5. Data Protection and Security
@@ -559,14 +525,12 @@ Users can delete their account **at any time**:
 ### 7.2 Analytics Services
 
 **Google Analytics (Firebase)**
-* **Age Restriction**: Only 13+ years
 * **Data Collected**: Anonymous page views, session durations
 * **IP Anonymization**: Active
 * **Privacy Policy**: https://firebase.google.com/support/privacy
 * **Opt-Out**: Can disable "Ad Tracking" from iOS/Android system settings
 
 **Firebase Crashlytics**
-* **Age Restriction**: All users (anonymous)
 * **Data Collected**: Crash logs, technical errors
 * **Personal Information**: Does not contain
 * **Privacy Policy**: https://firebase.google.com/support/privacy
@@ -574,18 +538,24 @@ Users can delete their account **at any time**:
 ### 7.3 Marketing and Attribution Services
 
 **AppsFlyer**
-* **Age Restriction**: Only 13+ years
-* **Child Mode**: Automatically active for under 13
-* **Data Collected**: 
-  - 13+ years: Advertising performance, installation source
-  - <13 years: Only anonymous install count (NO IDFA/Android ID)
+* **Data Collected**: Advertising performance, installation source, attribution data
+* **iOS**: IDFA (with ATT permission)
+* **Android**: GAID (Google Advertising ID)
 * **Privacy Policy**: https://www.appsflyer.com/privacy-policy/
 * **Opt-Out**: Via ATT dialog (iOS), system settings (Android)
+
+**Meta/Facebook SDK**
+* **Data Collected**: Ad campaign performance, conversion tracking, attribution
+* **iOS 14+**: App Tracking Transparency (ATT) permission
+* **SKAdNetwork**: iOS privacy-preserving attribution
+* **AEM**: Aggregated Event Measurement (iOS 14+)
+* **Privacy Policy**: https://www.facebook.com/privacy/policy/
+* **Opt-Out**: Via ATT dialog (iOS), Facebook app settings (Android)
+* **App ID**: 2393573247695312
 
 ### 7.4 Subscription and Payment Services
 
 **RevenueCat**
-* **Age Restriction**: All users
 * **Data Collected**: Subscription status, purchase history (with hashed user ID)
 * **Personal Information**: Does not contain
 * **Payment Information**: Processed by App Store/Play Store, not transmitted to us
@@ -600,36 +570,32 @@ Users can delete their account **at any time**:
 
 ### 7.5 Data Security Measures (Third Parties)
 * ✅ **GDPR Compliant**: All services meet GDPR requirements
-* ✅ **COPPA Certified**: Child data processing certificates available
 * ✅ **Data Processing Agreements**: Written DPA signed
 * ✅ **Regular Audit**: Annual security audits
 
 **User Right**: You have the right to review relevant privacy policies before using these services.
 
-## 8. Child Privacy (COPPA/GDPR-K Compliance)
+## 8. Parental Control and Child Safety
 
-### 8.1 Parental Consent
-* **Children under 13**: No personal data collected without parental consent
-* **Parental Controls**: Right to manage and delete child's account
-* **Contact**: Parents can reach us at: privacy@harmoniakids.com
+### 8.1 Application Usage Model
+Harmonia Kids is an application used **under parental supervision**:
+* ✅ Parents create and manage accounts
+* ✅ Parents select and play content
+* ✅ Children listen under parental supervision
+* ✅ All purchases under parental control
 
-### 8.2 Protection of Children's Data
-* ❌ No personal information collection
-* ❌ No behavioral profiling
-* ❌ No targeted advertising
-* ✅ Age-appropriate content
-* ✅ Parental controls
+### 8.2 Child Content Safety
+* ✅ All content prepared by expert pedagogues and child development specialists
+* ✅ Age-appropriate content categories (0-3, 4-7, 8-11, 12-14)
+* ✅ Therapeutic and developmental content
+* ✅ Ad-free experience
 
-### 8.3 COPPA Compliance Table
-
-| Requirement | Status | Explanation |
-|------------|--------|-------------|
-| Parental notification | ✅ | Explained in this policy |
-| Data collection limit | ✅ | Minimum data collection |
-| Parental consent | ✅ | No personal data collected (no consent required) |
-| Data access | ✅ | Parents can contact |
-| Data deletion | ✅ | Account deletion feature available |
-| Security | ✅ | SHA-256 hashing, HTTPS |
+### 8.3 Parental Controls
+* **Account Management**: Full control with parent
+* **Content Access**: Selected by parent
+* **Purchases**: With App Store/Play Store parental controls
+* **Account Deletion**: Parent can delete anytime
+* **Contact**: Parents can reach us at privacy@harmoniakids.com
 
 ## 9. International Data Transfers
 
@@ -741,6 +707,7 @@ For questions about the privacy policy:
 
 | Date | Version | Changes |
 |------|---------|--------|
+| March 16, 2026 | 6.0 | Parent-focused data collection policy, Meta/Facebook SDK integration, removal of age-based restrictions, ATT and full attribution support |
 | February 25, 2026 | 5.1 | Package content update rights clause added |
 | February 20, 2026 | 5.0 | One-time purchase packages feature, marketing communications and notification system (newsletter) |
 | December 10, 2025 | 4.0 | AI-powered child analysis feature, company name update (Harmonia Global) |
