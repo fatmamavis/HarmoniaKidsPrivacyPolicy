@@ -5,7 +5,7 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 16 Mart 2026**
+**Son Güncelleme: 17 Mart 2026**
 
 ## 1. Giriş
 Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
@@ -185,12 +185,15 @@ Kullanıcılar **istediği zaman** hesabını silebilir:
 * **Opt-Out**: ATT dialog ile (iOS), sistem ayarlarından (Android)
 
 **Meta/Facebook SDK**
-* **Toplanan Veri**: Reklam kampanya performansı, dönüşüm tracking, attribution
+* **Toplanan Veri**: Cihaz kimlikleri (IDFA - Reklam Tanımlayıcısı), reklam kampanya performansı, dönüşüm tracking, attribution, uygulama içi etkileşim verileri
 * **iOS 14+**: App Tracking Transparency (ATT) izni ile
 * **SKAdNetwork**: iOS privacy-preserving attribution
 * **AEM**: Aggregated Event Measurement (iOS 14+)
 * **Gizlilik Politikası**: https://www.facebook.com/privacy/policy/
-* **Opt-Out**: ATT dialog ile (iOS), Facebook uygulama ayarlarından (Android)
+* **Opt-Out Yöntemleri**:
+  - **iOS**: Uygulamamızı ilk açtığınızda karşınıza çıkan "Takip İzni" (App Tracking Transparency) ekranında "Uygulamanın Takip Etmemesini İste" seçeneğini seçerek bu izni reddedebilirsiniz.
+  - **iOS Ayarlar**: Cihazınızın **Ayarlar > Gizlilik ve Güvenlik > Takip Etme** menüsüne giderek uygulamamızın takip iznini dilediğiniz zaman kapatabilir veya açabilirsiniz.
+  - **Android**: Facebook uygulama ayarlarından veya cihaz ayarlarından reklam kimliğini sıfırlayabilir veya kişiselleştirilmiş reklamları kapatabilirsiniz.
 * **Uygulama ID**: 2393573247695312
 
 ### 7.4 Abonelik ve Ödeme Hizmetleri
@@ -348,6 +351,7 @@ Gizlilik politikası hakkında sorularınız için:
 | Tarih | Versiyon | Değişiklikler |
 |-------|----------|---------------|
 | 16 Mart 2026 | 6.0 | Ebeveyn odaklı veri toplama politikası, Meta/Facebook SDK entegrasyonu, yaş bazlı kısıtlamaların kaldırılması, ATT ve full attribution desteği |
+| 17 Mart 2026 | 6.1 | Meta SDK IDFA toplama ve opt-out yöntemleri detaylandırıldı, Kullanım Sözleşmesine veri işleme onayı maddesi eklendi |
 | 25 Şubat 2026 | 5.1 | Paket içerik güncelleme hakkı maddesi eklendi |
 | 20 Şubat 2026 | 5.0 | Tek seferlik satın alınan paketler özelliği, pazarlama iletişimi ve bildirim sistemi (newsletter) |
 | 10 Aralık 2025 | 4.0 | Yapay zeka destekli çocuk analizi özelliği, şirket adı güncellemesi (Harmonia Global) |
@@ -364,7 +368,7 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 The following additional terms supplement this EULA:
 
-**Last Updated: March 16, 2026**
+**Last Updated: March 17, 2026**
 
 ## 1. Introduction
 Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
@@ -545,12 +549,15 @@ Users can delete their account **at any time**:
 * **Opt-Out**: Via ATT dialog (iOS), system settings (Android)
 
 **Meta/Facebook SDK**
-* **Data Collected**: Ad campaign performance, conversion tracking, attribution
+* **Data Collected**: Device identifiers (IDFA - Advertising Identifier), ad campaign performance, conversion tracking, attribution, in-app interaction data
 * **iOS 14+**: App Tracking Transparency (ATT) permission
 * **SKAdNetwork**: iOS privacy-preserving attribution
 * **AEM**: Aggregated Event Measurement (iOS 14+)
 * **Privacy Policy**: https://www.facebook.com/privacy/policy/
-* **Opt-Out**: Via ATT dialog (iOS), Facebook app settings (Android)
+* **Opt-Out Methods**:
+  - **iOS**: When you first open our app, you can deny permission by selecting "Ask App Not to Track" on the "Tracking Permission" (App Tracking Transparency) screen.
+  - **iOS Settings**: You can enable or disable our app's tracking permission at any time by going to your device's **Settings > Privacy & Security > Tracking** menu.
+  - **Android**: You can reset your advertising ID or disable personalized ads from Facebook app settings or device settings.
 * **App ID**: 2393573247695312
 
 ### 7.4 Subscription and Payment Services
@@ -708,6 +715,7 @@ For questions about the privacy policy:
 | Date | Version | Changes |
 |------|---------|--------|
 | March 16, 2026 | 6.0 | Parent-focused data collection policy, Meta/Facebook SDK integration, removal of age-based restrictions, ATT and full attribution support |
+| March 17, 2026 | 6.1 | Detailed Meta SDK IDFA collection and opt-out methods, added data processing consent clause to Terms of Use |
 | February 25, 2026 | 5.1 | Package content update rights clause added |
 | February 20, 2026 | 5.0 | One-time purchase packages feature, marketing communications and notification system (newsletter) |
 | December 10, 2025 | 4.0 | AI-powered child analysis feature, company name update (Harmonia Global) |
@@ -731,7 +739,7 @@ For questions about the privacy policy:
 ---
 
 # KULLANIM SÖZLEŞMESİ / TERMS OF USE
-**Son Güncelleme / Last Updated: 20 Şubat / February 20, 2026**
+**Son Güncelleme / Last Updated: 17 Mart / March 17, 2026**
 
 ## 1. Lisans / License
 Kullanıcılara, uygulamayı kişisel, ticari olmayan amaçlarla kullanmaları için sınırlı, münhasır olmayan bir lisans verilir. / Users are granted a limited, non-exclusive license to use the application for personal, non-commercial purposes.
@@ -742,6 +750,11 @@ Kullanıcılar / Users may not:
 * Uygulamadan herhangi bir içeriği dağıtamaz veya satamaz / Distribute or sell any content from the application
 * Kaynak kodu çıkarmaya teşebbüs edemez / Attempt to extract source code
 * Uygulamayı yasa dışı amaçlarla kullanamaz / Use the application for illegal purposes
+
+## 2.1 Veri İşleme Onayı / Data Processing Consent
+Uygulamamızı kullanarak, kişisel verilerinizin Gizlilik Politikamızda belirtilen şartlar, amaçlar ve üçüncü taraf paylaşımları (Meta/Facebook SDK kullanımı dahil) doğrultusunda işlenmesini kabul etmiş olursunuz. Bu kapsamda cihaz kimlikleriniz (IDFA/GAID), uygulama içi etkileşim verileriniz ve kullanım verileriniz reklam ölçümü, analitik ve attribution amaçlarıyla Meta platformları ile paylaşılabilir.
+
+By using our application, you agree to the processing of your personal data in accordance with the terms, purposes, and third-party sharing (including Meta/Facebook SDK usage) specified in our Privacy Policy. In this context, your device identifiers (IDFA/GAID), in-app interaction data, and usage data may be shared with Meta platforms for advertising measurement, analytics, and attribution purposes.
 
 ## 3. Hesap Yönetimi / Account Management
 * Kullanıcılar Google veya Apple hesapları aracılığıyla uygulamamıza giriş yapabilirler. / Users can sign into our application through Google or Apple accounts.
