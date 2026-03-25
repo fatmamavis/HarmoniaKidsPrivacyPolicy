@@ -5,14 +5,34 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 17 Mart 2026**
+**Son Güncelleme: 25 Mart 2026**
 
 ## 1. Giriş
 Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
 
 **Uygulama Kullanım Modeli**: Harmonia Kids, **ebeveyn eşliğinde** çocuklara terapötik masallar dinleten bir uygulamadır. Uygulamamızın birincil kullanıcıları ve müşterileri **ebeveynlerdir**. Çocuklar uygulamayı doğrudan kullanmaz, ebeveynlerin kontrolünde içerik dinlerler.
 
-**Gizlilik Taahhüdü**: Uygulamamız GDPR (General Data Protection Regulation) ve ilgili uluslararası gizlilik yasalarına uyum sağlar.
+**Gizlilik Taahhüdü**: Uygulamamız GDPR (General Data Protection Regulation), COPPA (Children's Online Privacy Protection Act) ve ilgili uluslararası gizlilik yasalarına uyum sağlar.
+
+## 1.1 Yaş Doğrulama ve COPPA Uyumu
+
+Uygulamayı ilk kez açtığınızda, kullanıcının yaş grubunu soran bir doğrulama ekranı gösterilir:
+
+**13 Yaş ve Üzeri Kullanıcılar (Ebeveynler):**
+* ✅ Tam analitik ve attribution özellikleri aktif
+* ✅ Firebase Analytics, AppsFlyer, Meta/Facebook SDK kullanılır
+* ✅ iOS'ta ATT (App Tracking Transparency) izni istenir
+* ✅ IDFA/GAID ile pazarlama attribution takibi yapılır
+
+**13 Yaş Altı Kullanıcılar:**
+* ✅ Sadece Firebase Analytics (first-party, COPPA uyumlu)
+* ❌ AppsFlyer SDK başlatılmaz
+* ❌ Meta/Facebook SDK tracking devre dışı
+* ❌ ATT izni istenmez
+* ❌ IDFA/GAID toplanmaz
+* ❌ Üçüncü taraf veri paylaşımı yapılmaz
+
+**Önemli:** Yaş seçimi cihazda kalıcı olarak saklanır ve sonraki açılışlarda tekrar sorulmaz. Profil ayarlarından değiştirilebilir.
 
 ## 2. Veri Toplama Politikası
 
@@ -25,13 +45,22 @@ Uygulamamızın hedef kitlesi **ebeveynlerdir**. Çocuklar:
 Bu nedenle tüm veri toplama ve pazarlama faaliyetleri ebeveynlere yöneliktir.
 
 ### 2.2 Toplanan Veriler
-Tüm kullanıcılar (ebeveynler) için:
+
+**Tüm Kullanıcılar İçin (Yaş Fark Etmeksizin):**
 * ✅ **Hesap bilgileri** (Google/Apple ile giriş - hashlenmiş kullanıcı ID)
-* ✅ **Anonim kullanım istatistikleri** (uygulama iyileştirme için)
-* ✅ **Çökme raporları** (teknik sorun çözümü için)
-* ✅ **Analitik veriler** (Firebase Analytics, AppsFlyer, Meta/Facebook SDK)
+* ✅ **Anonim kullanım istatistikleri** (Firebase Analytics - first-party)
+* ✅ **Çökme raporları** (Firebase Crashlytics - teknik sorun çözümü)
+
+**Sadece 13+ Yaş Kullanıcılar İçin (COPPA Uyumu):**
+* ✅ **Analitik veriler** (AppsFlyer, Meta/Facebook SDK)
 * ✅ **Pazarlama attribution verileri** (reklam kampanya performansı)
 * ✅ **ATT izni** (iOS 14+, kullanıcı onayı ile)
+* ✅ **Reklam Tanımlayıcıları** (IDFA/GAID)
+
+**13 Yaş Altı Kullanıcılar İçin:**
+* ❌ Üçüncü taraf analitik ve attribution verileri TOPLANMAZ
+* ❌ Reklam tanımlayıcıları (IDFA/GAID) toplanmaz
+* ❌ Üçüncü taraflarla veri paylaşılmaz
 
 **Önemli Not:** Tüm kullanıcı ID'leri SHA-256 algoritması ile hashlenmiş (şifrelenmiş) formatta saklanır.
 
@@ -350,6 +379,7 @@ Gizlilik politikası hakkında sorularınız için:
 
 | Tarih | Versiyon | Değişiklikler |
 |-------|----------|---------------|
+| 25 Mart 2026 | 7.0 | **COPPA Uyumu**: Uygulama açılışında yaş doğrulama eklendi. 13 yaş altı kullanıcılar için üçüncü taraf tracking (AppsFlyer, Facebook SDK, ATT, IDFA) tamamen devre dışı bırakıldı. Sadece first-party Firebase Analytics aktif. |
 | 16 Mart 2026 | 6.0 | Ebeveyn odaklı veri toplama politikası, Meta/Facebook SDK entegrasyonu, yaş bazlı kısıtlamaların kaldırılması, ATT ve full attribution desteği |
 | 17 Mart 2026 | 6.1 | Meta SDK IDFA toplama ve opt-out yöntemleri detaylandırıldı, Kullanım Sözleşmesine veri işleme onayı maddesi eklendi |
 | 25 Şubat 2026 | 5.1 | Paket içerik güncelleme hakkı maddesi eklendi |
@@ -368,14 +398,34 @@ https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 The following additional terms supplement this EULA:
 
-**Last Updated: March 17, 2026**
+**Last Updated: March 25, 2026**
 
 ## 1. Introduction
 Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
 
-**Application Usage Model**: Harmonia Kids is an application that plays therapeutic stories to children **under parental supervision**. The primary users and customers of our application are **parents**. Children do not use the application directly; they listen to content under parental control.
+**Application Usage Model**: Harmonia Kids is an application that **parents use** to play therapeutic stories for their children. The primary users and customers of our application are **parents**. Children do not directly interact with the app; they listen to content under parental supervision. This is NOT a kids app - it is a parental tool.
 
-**Privacy Commitment**: Our application complies with GDPR (General Data Protection Regulation) and relevant international privacy laws.
+**Privacy Commitment**: Our application complies with GDPR (General Data Protection Regulation), COPPA (Children's Online Privacy Protection Act), and relevant international privacy laws.
+
+## 1.1 Age Verification and COPPA Compliance
+
+When you first open the app, an age verification screen is displayed asking for the user's age group:
+
+**Users 13 Years and Older (Parents):**
+* ✅ Full analytics and attribution features enabled
+* ✅ Firebase Analytics, AppsFlyer, Meta/Facebook SDK are used
+* ✅ ATT (App Tracking Transparency) permission requested on iOS
+* ✅ Marketing attribution tracking via IDFA/GAID
+
+**Users Under 13 Years:**
+* ✅ Only Firebase Analytics (first-party, COPPA compliant)
+* ❌ AppsFlyer SDK is NOT initialized
+* ❌ Meta/Facebook SDK tracking disabled
+* ❌ ATT permission NOT requested
+* ❌ IDFA/GAID NOT collected
+* ❌ NO third-party data sharing
+
+**Important:** Age selection is permanently stored on the device and will not be asked again on subsequent launches. Can be changed in profile settings.
 
 ## 2. Data Collection Policy
 
