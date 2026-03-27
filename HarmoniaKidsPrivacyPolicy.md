@@ -1,66 +1,79 @@
-# GİZLİLİK POLİTİKASI
-## Yasal Çerçeve
+# GİZLİLİK POLİTİKASI / PRIVACY POLICY
+
+## Yasal Çerçeve / Legal Framework
 Bu uygulama Apple'ın Standart Lisans Sözleşmesi (EULA) kapsamındadır: 
 https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 Aşağıdaki ek şartlar bu EULA'yı tamamlar:
 
-**Son Güncelleme: 25 Mart 2026**
+**Son Güncelleme / Last Updated:** 27 Mart 2026 / March 27, 2026  
+**Sürüm / Version:** 8.0  
+**Apple Kids Category Uyumlu / Apple Kids Category Compliant**
+
+---
+
+## Genel Bakış / Overview
+
+Harmonia Kids, 13 yaşın altındaki çocuklar dahil tüm yaş gruplarına yönelik bir çocuk uygulamasıdır. Bu uygulama Apple App Store **Çocuk Kategorisi (Kids Category)** ve Google Play **Aile Programı**'nda yayınlanmaktadır.
+
+Harmonia Kids is a children's application designed for kids of all ages, including children under 13. This app is published in the Apple App Store **Kids Category** and Google Play **Family Program**.
+
+**Uyumluluk / Compliance:**
+- COPPA (Children's Online Privacy Protection Act)
+- GDPR (General Data Protection Regulation)
+- GDPR-K (Children's Data Protection)
+- KVKK (Kişisel Verilerin Korunması Kanunu - Türkiye)
+- Apple App Store Kids Category Guidelines
+- Google Play Families Policy
+
+---
+
+# TÜRKÇE VERSİYON
 
 ## 1. Giriş
-Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın gizliliğini korumaya önem vermektedir. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
 
-**Uygulama Kullanım Modeli**: Harmonia Kids, **ebeveyn eşliğinde** çocuklara terapötik masallar dinleten bir uygulamadır. Uygulamamızın birincil kullanıcıları ve müşterileri **ebeveynlerdir**. Çocuklar uygulamayı doğrudan kullanmaz, ebeveynlerin kontrolünde içerik dinlerler.
+Harmonia Global / Harmonia Kids ("biz," "bizim," veya "şirketimiz") kullanıcılarımızın, özellikle çocukların gizliliğini en üst düzeyde korumaya kararlıdır. Bu gizlilik politikası, terapötik masal uygulamamızı kullanırken bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
 
-**Gizlilik Taahhüdü**: Uygulamamız GDPR (General Data Protection Regulation), COPPA (Children's Online Privacy Protection Act) ve ilgili uluslararası gizlilik yasalarına uyum sağlar.
+**Uygulama Kullanım Modeli**: Harmonia Kids, çocuklara terapötik masallar sunan bir uygulamadır. Uygulamamız Apple Kids Category'de yayınlanmaktadır ve çocukların gizliliğini korumak için üçüncü taraf takip SDK'ları kullanmaz.
 
-## 1.1 Yaş Doğrulama ve COPPA Uyumu
-
-Uygulamayı ilk kez açtığınızda, kullanıcının yaş grubunu soran bir doğrulama ekranı gösterilir:
-
-**13 Yaş ve Üzeri Kullanıcılar (Ebeveynler):**
-* ✅ Tam analitik ve attribution özellikleri aktif
-* ✅ Firebase Analytics, AppsFlyer, Meta/Facebook SDK kullanılır
-* ✅ iOS'ta ATT (App Tracking Transparency) izni istenir
-* ✅ IDFA/GAID ile pazarlama attribution takibi yapılır
-
-**13 Yaş Altı Kullanıcılar:**
-* ✅ Sadece Firebase Analytics (first-party, COPPA uyumlu)
-* ❌ AppsFlyer SDK başlatılmaz
-* ❌ Meta/Facebook SDK tracking devre dışı
-* ❌ ATT izni istenmez
-* ❌ IDFA/GAID toplanmaz
-* ❌ Üçüncü taraf veri paylaşımı yapılmaz
-
-**Önemli:** Yaş seçimi cihazda kalıcı olarak saklanır ve sonraki açılışlarda tekrar sorulmaz. Profil ayarlarından değiştirilebilir.
+**Gizlilik Taahhüdü**: Uygulamamız GDPR, COPPA ve ilgili uluslararası gizlilik yasalarına tam uyum sağlar.
 
 ## 2. Veri Toplama Politikası
 
-### 2.1 Hedef Kitle
-Uygulamamızın hedef kitlesi **ebeveynlerdir**. Çocuklar:
-* Uygulamayı doğrudan kullanmaz
-* Hesap oluşturmaz
-* Ebeveyn gözetiminde içerik dinler
+### 2.1 Minimum Veri İlkesi
 
-Bu nedenle tüm veri toplama ve pazarlama faaliyetleri ebeveynlere yöneliktir.
+Harmonia Kids, çocukların gizliliğini en öncelikli olarak tasarlanmıştır. Hizmetimizi sunmak için gereken **mutlak minimum** veriyi topluyoruz:
 
-### 2.2 Toplanan Veriler
+| Veri Türü | Toplanıyor mu | Amaç |
+|-----------|---------------|------|
+| Kişisel Kimlik Bilgileri (Ad, E-posta) | ❌ Hayır | - |
+| Cihaz Reklam Kimliği (IDFA/GAID) | ❌ Hayır | - |
+| Konum Verileri | ❌ Hayır | - |
+| Fotoğraflar/Kamera | ❌ Hayır | - |
+| Kişiler | ❌ Hayır | - |
+| Üçüncü Taraf İzleme | ❌ Hayır | - |
+| Anonim Kullanım Analitiği | ✅ Evet | Uygulama iyileştirme |
+| Çökme Raporları | ✅ Evet | Hata düzeltme |
+| Abonelik Durumu | ✅ Evet | Hizmet sunumu |
 
-**Tüm Kullanıcılar İçin (Yaş Fark Etmeksizin):**
+### 2.2 Kullanmadığımız Teknolojiler
+
+Harmonia Kids hiçbir şekilde şunları **KULLANMAZ:**
+
+- ❌ **Reklam SDK'ları** - Hiçbir reklam ağı entegrasyonu yoktur
+- ❌ **IDFA/GAID toplama** - Reklam kimlikleri toplanmaz
+- ❌ **AppsFlyer veya benzeri attribution SDK'ları** - Kurulu değildir
+- ❌ **Meta/Facebook SDK** - Kurulu değildir
+- ❌ **Uygulamalar arası izleme** - Cross-app tracking yoktur
+- ❌ **ATT (App Tracking Transparency) bildirimleri** - Gösterilmez
+- ❌ **Davranışsal reklam** - Kullanılmaz
+
+### 2.3 Toplanan Veriler
+
+**Tüm Kullanıcılar İçin:**
 * ✅ **Hesap bilgileri** (Google/Apple ile giriş - hashlenmiş kullanıcı ID)
-* ✅ **Anonim kullanım istatistikleri** (Firebase Analytics - first-party)
+* ✅ **Anonim kullanım istatistikleri** (Firebase Analytics - first-party, COPPA uyumlu)
 * ✅ **Çökme raporları** (Firebase Crashlytics - teknik sorun çözümü)
-
-**Sadece 13+ Yaş Kullanıcılar İçin (COPPA Uyumu):**
-* ✅ **Analitik veriler** (AppsFlyer, Meta/Facebook SDK)
-* ✅ **Pazarlama attribution verileri** (reklam kampanya performansı)
-* ✅ **ATT izni** (iOS 14+, kullanıcı onayı ile)
-* ✅ **Reklam Tanımlayıcıları** (IDFA/GAID)
-
-**13 Yaş Altı Kullanıcılar İçin:**
-* ❌ Üçüncü taraf analitik ve attribution verileri TOPLANMAZ
-* ❌ Reklam tanımlayıcıları (IDFA/GAID) toplanmaz
-* ❌ Üçüncü taraflarla veri paylaşılmaz
 
 **Önemli Not:** Tüm kullanıcı ID'leri SHA-256 algoritması ile hashlenmiş (şifrelenmiş) formatta saklanır.
 
@@ -76,29 +89,22 @@ Bu nedenle tüm veri toplama ve pazarlama faaliyetleri ebeveynlere yöneliktir.
   - Sadece hata logları ve teknik detaylar
 * **Cihaz Bilgileri**: İşletim sistemi versiyonu, uygulama versiyonu (cihaz modeli veya seri numarası DEĞİL)
 
-### 3.3 Pazarlama ve Attribution Verileri
+### 3.3 Analitik Veriler (Firebase Analytics - First-Party)
 * **Uygulama Kullanım Verileri**: 
   - Hangi içeriklerin görüntülendiği
   - Ne kadar süre içerik izlendiği
   - Hangi özelliklerin kullanıldığı
   
-* **Analitik Veriler** (Firebase Analytics):
+* **Anonim Analitik Veriler**:
   - Sayfa görüntülemeleri
   - Oturum süreleri
   - Uygulama içi navigasyon
-  - **Not:** IP adresi anonimleştirilir
-  
-* **Attribution Verileri** (AppsFlyer & Meta/Facebook SDK):
-  - Reklam kampanya performansı
-  - Uygulama yüklenme kaynağı
-  - Dönüşüm metrikleri
-  - iOS: IDFA (ATT izni ile)
-  - Android: GAID (Google Advertising ID)
+  - **Not:** IP adresi anonimleştirilir, kişisel tanımlayıcı içermez
 
-* **Yapay Zeka Destekli Çocuk Analizi** (İsteğe Bağlı):
-  - Çocuğun adı, yaşı ve cinsiyeti
-  - Ebeveyn tarafından tutulan günlük notları
-  - **Not:** Ham veriler işlem sonrası derhal silinir, saklanmaz
+### 3.4 Yapay Zeka Destekli Çocuk Analizi (İsteğe Bağlı)
+* Çocuğun adı, yaşı ve cinsiyeti
+* Ebeveyn tarafından tutulan günlük notları
+* **Not:** Ham veriler işlem sonrası derhal silinir, saklanmaz
 
 ## 4. Bilgilerin Kullanımı
 
@@ -110,8 +116,6 @@ Toplanan bilgileri **yalnızca** şu amaçlarla kullanıyoruz:
 * ✅ Uygulama performansını iyileştirme
 * ✅ Kullanıcı deneyimini iyileştirme
 * ✅ İçerik önerilerini geliştirme
-* ✅ Pazarlama kampanyalarının etkinliğini ölçme
-* ✅ Reklam attribution ve dönüşüm takibi
 * ✅ Güvenlik ve dolandırıcılık önleme
 
 ### 4.2 Pazarlama İletişimi ve Bildirimler
@@ -134,6 +138,7 @@ Uygulamamızda e-posta ve bildirim sistemi üzerinden pazarlama iletişimi yapı
 Verileriniz **ASLA** şu amaçlarla kullanılmaz:
 * ❌ Üçüncü taraflara satış
 * ❌ Spam veya istenmeyen üçüncü taraf pazarlama
+* ❌ Reklam attribution veya dönüşüm takibi
 
 ## 5. Veri Koruma ve Güvenlik
 
@@ -147,7 +152,6 @@ Verileriniz **ASLA** şu amaçlarla kullanılmaz:
 ### 5.2 Veri Saklama Konumu
 * **Firebase**: Google Cloud Platform (AB ve ABD sunucuları)
 * **RevenueCat**: AWS (Amazon Web Services)
-* **AppsFlyer**: Çok bölgeli sunucular (GDPR uyumlu)
 
 Tüm üçüncü taraf hizmetler GDPR ve COPPA gerekliliklerini karşılar.
 
@@ -196,34 +200,20 @@ Kullanıcılar **istediği zaman** hesabını silebilir:
 **Google Analytics (Firebase)**
 * **Toplanan Veri**: Anonim sayfa görüntülemeleri, oturum süreleri
 * **IP Anonimleştirme**: Aktif
+* **IDFA/GAID**: Toplanmaz
 * **Gizlilik Politikası**: https://firebase.google.com/support/privacy
-* **Opt-Out**: iOS/Android sistem ayarlarından "Ad Tracking" kapatılabilir
 
 **Firebase Crashlytics**
 * **Toplanan Veri**: Çökme logları, teknik hatalar
 * **Kişisel Bilgi**: İçermez
 * **Gizlilik Politikası**: https://firebase.google.com/support/privacy
 
-### 7.3 Pazarlama ve Attribution Hizmetleri
+### 7.3 Bildirim Hizmetleri
 
-**AppsFlyer**
-* **Toplanan Veri**: Reklam performansı, yüklenme kaynağı, attribution verileri
-* **iOS**: IDFA (ATT izni ile)
-* **Android**: GAID (Google Advertising ID)
-* **Gizlilik Politikası**: https://www.appsflyer.com/privacy-policy/
-* **Opt-Out**: ATT dialog ile (iOS), sistem ayarlarından (Android)
-
-**Meta/Facebook SDK**
-* **Toplanan Veri**: Cihaz kimlikleri (IDFA - Reklam Tanımlayıcısı), reklam kampanya performansı, dönüşüm tracking, attribution, uygulama içi etkileşim verileri
-* **iOS 14+**: App Tracking Transparency (ATT) izni ile
-* **SKAdNetwork**: iOS privacy-preserving attribution
-* **AEM**: Aggregated Event Measurement (iOS 14+)
-* **Gizlilik Politikası**: https://www.facebook.com/privacy/policy/
-* **Opt-Out Yöntemleri**:
-  - **iOS**: Uygulamamızı ilk açtığınızda karşınıza çıkan "Takip İzni" (App Tracking Transparency) ekranında "Uygulamanın Takip Etmemesini İste" seçeneğini seçerek bu izni reddedebilirsiniz.
-  - **iOS Ayarlar**: Cihazınızın **Ayarlar > Gizlilik ve Güvenlik > Takip Etme** menüsüne giderek uygulamamızın takip iznini dilediğiniz zaman kapatabilir veya açabilirsiniz.
-  - **Android**: Facebook uygulama ayarlarından veya cihaz ayarlarından reklam kimliğini sıfırlayabilir veya kişiselleştirilmiş reklamları kapatabilirsiniz.
-* **Uygulama ID**: 2393573247695312
+**OneSignal**
+* **Toplanan Veri**: Anonim cihaz jetonu (push bildirimleri için)
+* **Kişisel Bilgi**: İçermez
+* **Gizlilik Politikası**: https://onesignal.com/privacy_policy
 
 ### 7.4 Abonelik ve Ödeme Hizmetleri
 
@@ -242,27 +232,48 @@ Kullanıcılar **istediği zaman** hesabını silebilir:
 
 ### 7.5 Veri Güvenliği Önlemleri (Üçüncü Taraflar)
 * ✅ **GDPR Uyumlu**: Tüm hizmetler GDPR gerekliliklerini karşılar
+* ✅ **COPPA Uyumlu**: Tüm hizmetler çocuk verilerini korur
 * ✅ **Veri İşleme Anlaşmaları**: Yazılı DPA (Data Processing Agreement) imzalanmış
 * ✅ **Düzenli Denetim**: Yıllık güvenlik denetimleri
 
 **Kullanıcı Hakkı**: Bu hizmetleri kullanmadan önce ilgili gizlilik politikalarını inceleme hakkına sahipsiniz.
 
-## 8. Ebeveyn Kontrolü ve Çocuk Güvenliği
+## 8. Çocuk Gizliliği (COPPA Uyumluluğu)
 
-### 8.1 Uygulama Kullanım Modeli
-Harmonia Kids, **ebeveyn eşliğinde** kullanılan bir uygulamadır:
-* ✅ Ebeveynler hesap oluşturur ve yönetir
-* ✅ Ebeveynler içerik seçer ve oynatır
-* ✅ Çocuklar ebeveyn gözetiminde dinler
-* ✅ Tüm satın almalar ebeveyn kontrolünde
+### 8.1 Çocuklar İçin Tasarlandı
 
-### 8.2 Çocuk İçerik Güvenliği
+Harmonia Kids özellikle çocuklar için tasarlanmıştır ve COPPA gereksinimlerine uygundur:
+
+- Çocuklardan kişisel bilgi **TOPLAMIYORUZ**
+- Uygulamayı kullanmak için hesap oluşturma **GEREKMİYOR**
+- Çocukların kişisel bilgilerini herkese açık paylaşmasına **İZİN VERMİYORUZ**
+- Davranışsal reklam **KULLANMIYORUZ**
+- Hassas coğrafi konum **TOPLAMIYORUZ**
+
+### 8.2 Ebeveyn Hakları
+
+Ebeveynler ve veliler şu haklara sahiptir:
+
+- Çocuklarının kullanımıyla ilişkili verileri inceleme
+- Verilerin silinmesini talep etme
+- Daha fazla veri toplanmasını reddetme
+- Gizlilik endişeleriyle bizimle iletişime geçme
+
+### 8.3 Ebeveyn Onayı
+
+Abonelik satın alımları için ebeveyn onayı şu yollarla alınır:
+
+- Apple App Store'un yerleşik ebeveyn kontrolleri ve satın alma onayı
+- Google Play'in yerleşik ebeveyn kontrolleri ve Family Link
+- Ebeveynin Apple ID veya Google hesabını gerektiren uygulama içi satın alma onayı
+
+### 8.4 Çocuk İçerik Güvenliği
 * ✅ Tüm içerikler uzman pedagog ve çocuk gelişim uzmanları tarafından hazırlanır
 * ✅ Yaşa uygun içerik kategorileri (0-3, 4-7, 8-11, 12-14)
 * ✅ Terapötik ve gelişimsel içerikler
 * ✅ Reklamsız deneyim
 
-### 8.3 Ebeveyn Kontrolleri
+### 8.5 Ebeveyn Kontrolleri
 * **Hesap Yönetimi**: Tam kontrol ebeveynde
 * **İçerik Erişimi**: Ebeveyn tarafından seçilir
 * **Satın Alma**: App Store/Play Store ebeveyn kontrolleri ile
@@ -303,7 +314,13 @@ Verileriniz aşağıdaki mekanizmalarla korunarak aktarılır:
 * Talep türü (erişim, silme, düzeltme vb.)
 * Kimlik doğrulama (güvenlik için)
 
-### 10.3 Denetim Makamlarına Şikayet
+### 10.3 KVKK Hakları (Türkiye)
+Türkiye'deki kullanıcılar için KVKK kapsamında ek haklar:
+* Kişisel verilerinizin işlenip işlenmediğini öğrenme
+* İşlenmişse buna ilişkin bilgi talep etme
+* Verilerin silinmesini veya yok edilmesini isteme
+
+### 10.4 Denetim Makamlarına Şikayet
 Haklarınızın ihlal edildiğini düşünüyorsanız:
 * **Türkiye**: Kişisel Verileri Koruma Kurumu (KVKK) - https://www.kvkk.gov.tr
 * **AB**: Ülkenizdeki veri koruma otoritesi
@@ -366,7 +383,6 @@ Gizlilik politikası hakkında sorularınız için:
 **Yanıt Süresi**: 5 iş günü içinde
 
 ### 14.2 Veri Koruma Sorumlusu (DPO)
-**İsim**: [DPO İsmi - eklenecek]  
 **E-posta**: dpo@harmoniakids.com  
 **Rol**: GDPR uyumu ve kullanıcı haklarının korunması
 
@@ -375,78 +391,51 @@ Gizlilik politikası hakkında sorularınız için:
 **Web**: https://harmoniakids.com  
 **Destek**: support@harmoniakids.com
 
-## 15. Güncelleme Geçmişi
-
-| Tarih | Versiyon | Değişiklikler |
-|-------|----------|---------------|
-| 25 Mart 2026 | 7.0 | **COPPA Uyumu**: Uygulama açılışında yaş doğrulama eklendi. 13 yaş altı kullanıcılar için üçüncü taraf tracking (AppsFlyer, Facebook SDK, ATT, IDFA) tamamen devre dışı bırakıldı. Sadece first-party Firebase Analytics aktif. |
-| 16 Mart 2026 | 6.0 | Ebeveyn odaklı veri toplama politikası, Meta/Facebook SDK entegrasyonu, yaş bazlı kısıtlamaların kaldırılması, ATT ve full attribution desteği |
-| 17 Mart 2026 | 6.1 | Meta SDK IDFA toplama ve opt-out yöntemleri detaylandırıldı, Kullanım Sözleşmesine veri işleme onayı maddesi eklendi |
-| 25 Şubat 2026 | 5.1 | Paket içerik güncelleme hakkı maddesi eklendi |
-| 20 Şubat 2026 | 5.0 | Tek seferlik satın alınan paketler özelliği, pazarlama iletişimi ve bildirim sistemi (newsletter) |
-| 10 Aralık 2025 | 4.0 | Yapay zeka destekli çocuk analizi özelliği, şirket adı güncellemesi (Harmonia Global) |
-| 3 Kasım 2025 | 3.0 | iOS 14+ ATT desteği, yaşa göre dinamik veri toplama detayları |
-| 25 Ekim 2025 | 2.0 | AppsFlyer child mode açıklamaları |
-| 16 Temmuz 2025 | 1.0 | İlk yayın |
-
 ---
 
-# PRIVACY POLICY
-## Legal Framework
-This application is subject to Apple's Standard License Agreement (EULA): 
-https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-
-The following additional terms supplement this EULA:
-
-**Last Updated: March 25, 2026**
+# ENGLISH VERSION
 
 ## 1. Introduction
-Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
 
-**Application Usage Model**: Harmonia Kids is an application that **parents use** to play therapeutic stories for their children. The primary users and customers of our application are **parents**. Children do not directly interact with the app; they listen to content under parental supervision. This is NOT a kids app - it is a parental tool.
+Harmonia Global / Harmonia Kids ("we," "our," or "our company") is committed to protecting the privacy of our users, especially children. This privacy policy explains how information is collected, used, and protected when using our therapeutic storytelling application.
 
-**Privacy Commitment**: Our application complies with GDPR (General Data Protection Regulation), COPPA (Children's Online Privacy Protection Act), and relevant international privacy laws.
+**Application Usage Model**: Harmonia Kids is an application that provides therapeutic stories for children. Our app is published in the Apple Kids Category and does not use third-party tracking SDKs to protect children's privacy.
 
-## 1.1 Age Verification and COPPA Compliance
-
-When you first open the app, an age verification screen is displayed asking for the user's age group:
-
-**Users 13 Years and Older (Parents):**
-* ✅ Full analytics and attribution features enabled
-* ✅ Firebase Analytics, AppsFlyer, Meta/Facebook SDK are used
-* ✅ ATT (App Tracking Transparency) permission requested on iOS
-* ✅ Marketing attribution tracking via IDFA/GAID
-
-**Users Under 13 Years:**
-* ✅ Only Firebase Analytics (first-party, COPPA compliant)
-* ❌ AppsFlyer SDK is NOT initialized
-* ❌ Meta/Facebook SDK tracking disabled
-* ❌ ATT permission NOT requested
-* ❌ IDFA/GAID NOT collected
-* ❌ NO third-party data sharing
-
-**Important:** Age selection is permanently stored on the device and will not be asked again on subsequent launches. Can be changed in profile settings.
+**Privacy Commitment**: Our application fully complies with GDPR, COPPA, and relevant international privacy laws.
 
 ## 2. Data Collection Policy
 
-### 2.1 Target Audience
-The target audience of our application is **parents**. Children:
-* Do not use the application directly
-* Do not create accounts
-* Listen to content under parental supervision
+### 2.1 Minimal Data Principle
 
-Therefore, all data collection and marketing activities are directed at parents.
+| Data Type | Collected | Purpose |
+|-----------|-----------|---------|
+| Personal Identifiers (Name, Email) | ❌ No | - |
+| Device Advertising ID (IDFA/GAID) | ❌ No | - |
+| Location Data | ❌ No | - |
+| Photos/Camera | ❌ No | - |
+| Contacts | ❌ No | - |
+| Third-Party Tracking | ❌ No | - |
+| Anonymous Usage Analytics | ✅ Yes | App improvement |
+| Crash Reports | ✅ Yes | Bug fixing |
+| Subscription Status | ✅ Yes | Service delivery |
 
-### 2.2 Collected Data
-For all users (parents):
+### 2.2 Technologies We Do NOT Use
+
+- ❌ **Advertising SDKs** - No ad network integrations
+- ❌ **IDFA/GAID collection** - Advertising identifiers not collected
+- ❌ **AppsFlyer or similar attribution SDKs** - Not installed
+- ❌ **Meta/Facebook SDK** - Not installed
+- ❌ **Cross-app tracking** - Not implemented
+- ❌ **ATT (App Tracking Transparency) prompts** - Not shown
+- ❌ **Behavioral advertising** - Not used
+
+### 2.3 Collected Data
+
+**For All Users:**
 * ✅ **Account information** (Google/Apple sign-in - hashed user ID)
-* ✅ **Anonymous usage statistics** (for app improvement)
-* ✅ **Crash reports** (for technical issue resolution)
-* ✅ **Analytics data** (Firebase Analytics, AppsFlyer, Meta/Facebook SDK)
-* ✅ **Marketing attribution data** (ad campaign performance)
-* ✅ **ATT permission** (iOS 14+, with user consent)
+* ✅ **Anonymous usage statistics** (Firebase Analytics - first-party, COPPA compliant)
+* ✅ **Crash reports** (Firebase Crashlytics - technical issue resolution)
 
-**Important Note:** All user IDs are stored in hashed (encrypted) format using SHA-256 algorithm.
 **Important Note:** All user IDs are stored in hashed (encrypted) format using SHA-256 algorithm.
 
 ## 3. Information Collected (Detailed)
@@ -461,29 +450,22 @@ For all users (parents):
   - Only error logs and technical details
 * **Device Information**: Operating system version, app version (NOT device model or serial number)
 
-### 3.3 Marketing and Attribution Data
+### 3.3 Analytics Data (Firebase Analytics - First-Party)
 * **Application Usage Data**: 
   - Which content is viewed
   - How long content is watched
   - Which features are used
   
-* **Analytics Data** (Firebase Analytics):
+* **Anonymous Analytics Data**:
   - Page views
   - Session durations
   - In-app navigation
-  - **Note:** IP address is anonymized
-  
-* **Attribution Data** (AppsFlyer & Meta/Facebook SDK):
-  - Advertising campaign performance
-  - App installation source
-  - Conversion metrics
-  - iOS: IDFA (with ATT permission)
-  - Android: GAID (Google Advertising ID)
+  - **Note:** IP address is anonymized, contains no personal identifiers
 
-* **AI-Powered Child Analysis** (Optional):
-  - Child's name, age, and gender
-  - Journal notes kept by parents
-  - **Note:** Raw data is immediately deleted after processing, not stored
+### 3.4 AI-Powered Child Analysis (Optional)
+* Child's name, age, and gender
+* Journal notes kept by parents
+* **Note:** Raw data is immediately deleted after processing, not stored
 
 ## 4. Use of Information
 
@@ -495,12 +477,10 @@ We use collected information **only** for the following purposes:
 * ✅ Improving app performance
 * ✅ Improving user experience
 * ✅ Developing content recommendations
-* ✅ Measuring marketing campaign effectiveness
-* ✅ Ad attribution and conversion tracking
 * ✅ Security and fraud prevention
 
 ### 4.2 Marketing Communications and Notifications
-Our application conducts marketing communications through email and notification systems:
+Marketing communications are conducted through email and notification systems in our app:
 
 **Marketing Scope:**
 * ✅ In-app product and content promotions
@@ -509,44 +489,44 @@ Our application conducts marketing communications through email and notification
 * ❌ Third-party advertisements or promotions are NOT made
 
 **Explicit Consent:**
-* When users register to the system, they accept enrollment in email and notification newsletters by providing explicit consent.
+* When registering, users explicitly consent to receiving email and notification newsletters.
 
 **Unsubscribe Rights:**
-* **Notifications**: Users can disable notifications from device settings
-* **Email Newsletter**: Users can easily unsubscribe via the "Unsubscribe from Newsletter" button on the profile page
+* **Notifications**: Users can turn off notifications from device settings
+* **Email Newsletter**: Can easily unsubscribe via "Unsubscribe from Newsletter" button on Profile page
 
-### 4.3 Purposes Not Used
+### 4.3 Unused Purposes
 Your data is **NEVER** used for:
-* ❌ Selling to third parties
+* ❌ Sale to third parties
 * ❌ Spam or unwanted third-party marketing
+* ❌ Ad attribution or conversion tracking
 
 ## 5. Data Protection and Security
 
 ### 5.1 Security Measures
-* **Encryption**: All user IDs hashed with SHA-256 algorithm
+* **Encryption**: All user IDs are hashed with SHA-256 algorithm
 * **Secure Communication**: Encrypted data transmission with HTTPS/SSL certificate
 * **Access Control**: Limited personnel access, two-factor authentication
-* **Regular Audit**: Regular scans for security vulnerabilities
-* **Data Minimization**: Only necessary data collected
+* **Regular Audits**: Regular scans for security vulnerabilities
+* **Data Minimization**: Only necessary data is collected
 
 ### 5.2 Data Storage Location
 * **Firebase**: Google Cloud Platform (EU and US servers)
 * **RevenueCat**: AWS (Amazon Web Services)
-* **AppsFlyer**: Multi-regional servers (GDPR compliant)
 
 All third-party services meet GDPR and COPPA requirements.
 
-## 6. Data Storage and Deletion
+## 6. Data Retention and Deletion
 
 ### 6.1 Data Retention Periods
-* **Active Accounts**: Data stored as long as account remains active
+* **Active Accounts**: Data is retained as long as your account is active
 * **Crash Reports**: Automatically deleted after 90 days
 * **Analytics Data**: Aggregated form, 14 months
-* **User IDs**: Hashed form, until account deletion
-* **AI Analysis Results**: Stored until account deletion
-* **Raw Data Submitted for AI**: Deleted immediately after processing, not stored
+* **User IDs**: Hashed form, until account is deleted
+* **AI Analysis Results**: Retained until account is deleted
+* **Raw Data Submitted for AI**: Immediately deleted after processing, not stored
 
-### 6.2 Right to Account Deletion
+### 6.2 Right to Delete Account
 Users can delete their account **at any time**:
 
 **Deletion Steps:**
@@ -555,22 +535,22 @@ Users can delete their account **at any time**:
 3. Confirm
 
 **After Deletion:**
-* ✅ All personal data permanently deleted within 30 days
-* ✅ Hashed user IDs removed from systems
-* ✅ Process is irreversible
-* ⚠️ **Important:** Subscriptions are not automatically cancelled! Must be cancelled separately from App Store/Play Store.
+* ✅ All personal data is permanently deleted within 30 days
+* ✅ Hashed user IDs are removed from systems
+* ✅ Action is irreversible
+* ⚠️ **Important:** Subscriptions are NOT automatically canceled! You must cancel separately from App Store/Play Store.
 
 ### 6.3 Inactive Account Policy
-* Accounts not accessed for **2 years** are marked as "inactive accounts"
+* Accounts without login for **2 years** are marked as "inactive accounts"
 * We reserve the right to delete inactive accounts after 2 years
-* No obligation to provide notification before deletion
-* **Recommendation:** If not using your account, delete it manually
+* We are not obligated to notify before deletion
+* **Recommendation:** Manually delete your account if you're not using it
 
 ## 7. Third-Party Services
 
 ### 7.1 Authentication Services
 **Google Sign-In and Apple Sign In with Apple**
-* **Data Collected**: User ID (hashed), email (optional)
+* **Collected Data**: User ID (hashed), email (optional)
 * **Purpose**: Secure login and account management
 * **Privacy Policy**: 
   - Google: https://policies.google.com/privacy
@@ -579,88 +559,95 @@ Users can delete their account **at any time**:
 ### 7.2 Analytics Services
 
 **Google Analytics (Firebase)**
-* **Data Collected**: Anonymous page views, session durations
+* **Collected Data**: Anonymous page views, session durations
 * **IP Anonymization**: Active
+* **IDFA/GAID**: Not collected
 * **Privacy Policy**: https://firebase.google.com/support/privacy
-* **Opt-Out**: Can disable "Ad Tracking" from iOS/Android system settings
 
 **Firebase Crashlytics**
-* **Data Collected**: Crash logs, technical errors
-* **Personal Information**: Does not contain
+* **Collected Data**: Crash logs, technical errors
+* **Personal Information**: Not included
 * **Privacy Policy**: https://firebase.google.com/support/privacy
 
-### 7.3 Marketing and Attribution Services
+### 7.3 Notification Services
 
-**AppsFlyer**
-* **Data Collected**: Advertising performance, installation source, attribution data
-* **iOS**: IDFA (with ATT permission)
-* **Android**: GAID (Google Advertising ID)
-* **Privacy Policy**: https://www.appsflyer.com/privacy-policy/
-* **Opt-Out**: Via ATT dialog (iOS), system settings (Android)
-
-**Meta/Facebook SDK**
-* **Data Collected**: Device identifiers (IDFA - Advertising Identifier), ad campaign performance, conversion tracking, attribution, in-app interaction data
-* **iOS 14+**: App Tracking Transparency (ATT) permission
-* **SKAdNetwork**: iOS privacy-preserving attribution
-* **AEM**: Aggregated Event Measurement (iOS 14+)
-* **Privacy Policy**: https://www.facebook.com/privacy/policy/
-* **Opt-Out Methods**:
-  - **iOS**: When you first open our app, you can deny permission by selecting "Ask App Not to Track" on the "Tracking Permission" (App Tracking Transparency) screen.
-  - **iOS Settings**: You can enable or disable our app's tracking permission at any time by going to your device's **Settings > Privacy & Security > Tracking** menu.
-  - **Android**: You can reset your advertising ID or disable personalized ads from Facebook app settings or device settings.
-* **App ID**: 2393573247695312
+**OneSignal**
+* **Collected Data**: Anonymous device token (for push notifications)
+* **Personal Information**: Not included
+* **Privacy Policy**: https://onesignal.com/privacy_policy
 
 ### 7.4 Subscription and Payment Services
 
 **RevenueCat**
-* **Data Collected**: Subscription status, purchase history (with hashed user ID)
-* **Personal Information**: Does not contain
+* **Collected Data**: Subscription status, purchase history (with hashed user ID)
+* **Personal Information**: Not included
 * **Payment Information**: Processed by App Store/Play Store, not transmitted to us
 * **Privacy Policy**: https://www.revenuecat.com/privacy
 
 **Apple App Store & Google Play Store**
-* All payment transactions processed by platform providers
-* Credit card/bank information not shared with us
+* All payment transactions are performed by platform providers
+* Credit card/bank information is not shared with us
 * **Privacy Policies**: 
   - Apple: https://www.apple.com/legal/privacy/
   - Google: https://policies.google.com/privacy
 
 ### 7.5 Data Security Measures (Third Parties)
 * ✅ **GDPR Compliant**: All services meet GDPR requirements
-* ✅ **Data Processing Agreements**: Written DPA signed
-* ✅ **Regular Audit**: Annual security audits
+* ✅ **COPPA Compliant**: All services protect children's data
+* ✅ **Data Processing Agreements**: Written DPA (Data Processing Agreement) signed
+* ✅ **Regular Audits**: Annual security audits
 
 **User Right**: You have the right to review relevant privacy policies before using these services.
 
-## 8. Parental Control and Child Safety
+## 8. Children's Privacy (COPPA Compliance)
 
-### 8.1 Application Usage Model
-Harmonia Kids is an application used **under parental supervision**:
-* ✅ Parents create and manage accounts
-* ✅ Parents select and play content
-* ✅ Children listen under parental supervision
-* ✅ All purchases under parental control
+### 8.1 Designed for Children
 
-### 8.2 Child Content Safety
-* ✅ All content prepared by expert pedagogues and child development specialists
+Harmonia Kids is specifically designed for children and complies with COPPA requirements:
+
+- We do **NOT** collect personal information from children
+- We do **NOT** require account creation to use the app
+- We do **NOT** enable children to share personal information publicly
+- We do **NOT** use behavioral advertising
+- We do **NOT** collect precise geolocation
+
+### 8.2 Parental Rights
+
+Parents and guardians have the right to:
+
+- Review any data associated with their child's use
+- Request deletion of any data
+- Refuse further data collection
+- Contact us with any privacy concerns
+
+### 8.3 Parental Consent
+
+For subscription purchases, parental consent is obtained through:
+
+- Apple App Store's built-in parental controls and purchase confirmation
+- Google Play's built-in parental controls and Family Link
+- In-app purchase confirmation requiring parent's Apple ID or Google account
+
+### 8.4 Child Content Safety
+* ✅ All content is prepared by expert pedagogues and child development specialists
 * ✅ Age-appropriate content categories (0-3, 4-7, 8-11, 12-14)
 * ✅ Therapeutic and developmental content
 * ✅ Ad-free experience
 
-### 8.3 Parental Controls
+### 8.5 Parental Controls
 * **Account Management**: Full control with parent
 * **Content Access**: Selected by parent
 * **Purchases**: With App Store/Play Store parental controls
-* **Account Deletion**: Parent can delete anytime
+* **Account Deletion**: Parent can delete at any time
 * **Contact**: Parents can reach us at privacy@harmoniakids.com
 
-## 9. International Data Transfers
+## 9. International Data Transfer
 
 ### 9.1 Data Transfer Mechanisms
-Your data is transferred with protection through the following mechanisms:
+Your data is protected and transferred through the following mechanisms:
 * **EU-US Data Transfer**: EU-US Data Privacy Framework
 * **Standard Contractual Clauses**: GDPR Article 46 compliant SCCs
-* **Adequacy Decisions**: Countries approved by EU Commission
+* **Adequacy Decisions**: EU Commission approved countries
 
 ### 9.2 Data Processing Locations
 * **Primary Servers**: European Union (Google Cloud EU)
@@ -670,17 +657,17 @@ Your data is transferred with protection through the following mechanisms:
 ## 10. User Rights (GDPR)
 
 ### 10.1 Your Basic Rights
-1. **Right to Access**: Learn what data is collected
-2. **Right to Rectification**: Correct incorrect information
+1. **Right of Access**: Learn what data is collected about you
+2. **Right to Rectification**: Correct inaccurate information
 3. **Right to Erasure**: "Right to be forgotten" - delete all data
 4. **Data Portability**: Export your data
-5. **Object to Processing**: Refuse certain data processing
-6. **Object to Automated Decision Making**: Profiling refusal
+5. **Right to Object**: Refuse certain data processing
+6. **Right to Object to Automated Decision-Making**: Profiling rejection
 
 ### 10.2 Exercising Your Rights
 **Contact Channels:**
 * Email: privacy@harmoniakids.com
-* Subject: "GDPR User Rights Request"
+* Subject: "GDPR User Right Request"
 * Response Time: Within 30 days
 
 **Required Information:**
@@ -692,66 +679,65 @@ Your data is transferred with protection through the following mechanisms:
 If you believe your rights have been violated:
 * **Turkey**: Personal Data Protection Authority (KVKK) - https://www.kvkk.gov.tr
 * **EU**: Data protection authority in your country
-* **US**: Federal Trade Commission (FTC) - https://www.ftc.gov
+* **USA**: Federal Trade Commission (FTC) - https://www.ftc.gov
 
-## 11. Cookie Policy (For Web Version - If Available)
+## 11. Cookie Policy (For Web Version - If Any)
 
 **Note:** Mobile app does not use cookies. If web version exists:
 
 * **Essential Cookies**: Login session, security
-* **Analytics Cookies**: Google Analytics (optional, can be refused)
+* **Analytics Cookies**: Google Analytics (optional, can be rejected)
 * **Marketing Cookies**: Not used
 
 ## 12. Changes and Updates
 
 ### 12.1 Policy Updates
-* This privacy policy may be updated as necessary
-* **Major Changes**: Announced via in-app notification
-* **Minor Changes**: "Last Updated" date changed
+* This privacy policy may be updated as needed
+* **Significant Changes**: Announced via in-app notification
+* **Minor Changes**: "Last Updated" date is changed
 * **Update History**: At the bottom of this page
 
 ### 12.2 Change Notification
-In case of major changes:
+In case of significant changes:
 * ✅ In-app popup notification
-* ✅ Email notification (if registered email exists)
+* ✅ Email notification (if email is registered)
 * ✅ 30 days advance notice
 
-**User Right**: If you do not accept changes, you can delete your account.
+**User Right**: If you do not accept the changes, you can delete your account.
 
 ## 13. Disclaimer
 
-### 13.1 Downloads from Unofficial Sources
+### 13.1 Download from Unofficial Sources
 ⚠️ **IMPORTANT WARNING:**
 
-Harmonia Kids application should **only** be downloaded from official stores:
+Harmonia Kids app should **only** be downloaded from official stores:
 * ✅ Apple App Store
 * ✅ Google Play Store
 
-In case of downloading from **unofficial sources** (APK files, third-party stores, jailbreak/root devices):
-* ❌ No security guarantee
-* ❌ No data protection guarantee
-* ❌ App functionality not guaranteed
-* ❌ Updates not provided
-* ❌ No technical support
+In case of download from **unofficial sources** (APK files, third-party stores, jailbreak/root devices):
+* ❌ Security is not guaranteed
+* ❌ Data protection is not guaranteed
+* ❌ App functionality is not guaranteed
+* ❌ Updates are not provided
+* ❌ Technical support is not provided
 
 **Risks:** Security vulnerabilities, malware, data theft, device damage
 
-**Liability:** All issues arising from unofficial sources are user's responsibility.
+**Responsibility:** All issues arising from unofficial sources are the user's responsibility.
 
 ### 13.2 Linked Third-Party Sites
-There may be links to third-party websites within the app. We are not responsible for these sites' privacy policies.
+There may be links to third-party websites within the app. We are not responsible for the privacy policies of these sites.
 
 ## 14. Contact
 
 ### 14.1 Privacy Questions
-For questions about the privacy policy:
+For questions about privacy policy:
 
 **Email**: privacy@harmoniakids.com  
 **Subject**: "Privacy Policy Question"  
 **Response Time**: Within 5 business days
 
 ### 14.2 Data Protection Officer (DPO)
-**Name**: [DPO Name - to be added]  
 **Email**: dpo@harmoniakids.com  
 **Role**: GDPR compliance and protection of user rights
 
@@ -760,143 +746,23 @@ For questions about the privacy policy:
 **Web**: https://harmoniakids.com  
 **Support**: support@harmoniakids.com
 
-## 15. Update History
+---
 
-| Date | Version | Changes |
-|------|---------|--------|
-| March 16, 2026 | 6.0 | Parent-focused data collection policy, Meta/Facebook SDK integration, removal of age-based restrictions, ATT and full attribution support |
-| March 17, 2026 | 6.1 | Detailed Meta SDK IDFA collection and opt-out methods, added data processing consent clause to Terms of Use |
-| February 25, 2026 | 5.1 | Package content update rights clause added |
-| February 20, 2026 | 5.0 | One-time purchase packages feature, marketing communications and notification system (newsletter) |
-| December 10, 2025 | 4.0 | AI-powered child analysis feature, company name update (Harmonia Global) |
-| November 3, 2025 | 3.0 | iOS 14+ ATT support, age-based dynamic data collection details |
-| October 25, 2025 | 2.0 | AppsFlyer child mode explanations |
-| July 16, 2025 | 1.0 | Initial release |
+## Sürüm Geçmişi / Version History
+
+| Sürüm / Version | Tarih / Date | Değişiklikler / Changes |
+|-----------------|--------------|-------------------------|
+| 8.0 | 27 Mart 2026 | **Apple Kids Category Uyumu:** Tüm üçüncü taraf tracking SDK'ları kaldırıldı (AppsFlyer, Facebook SDK, ATT, IDFA/GAID). Sadece first-party Firebase Analytics kullanılıyor. Yaş doğrulama diyaloğu kaldırıldı. |
+| 7.0 | 25 Mart 2026 | COPPA Uyumu: Yaş doğrulama eklendi |
+| 6.1 | 17 Mart 2026 | Meta SDK IDFA detayları |
+| 6.0 | 16 Mart 2026 | Ebeveyn odaklı politika |
+| 5.1 | 25 Şubat 2026 | Paket içerik güncelleme hakkı |
+| 5.0 | 20 Şubat 2026 | Newsletter sistemi |
+| 4.0 | 10 Aralık 2025 | AI analiz özelliği |
+| 3.0 | 3 Kasım 2025 | iOS 14+ ATT desteği |
+| 2.0 | 25 Ekim 2025 | AppsFlyer child mode |
+| 1.0 | 16 Temmuz 2025 | İlk yayın |
 
 ---
 
-# FİKRİ MÜLKİYET / INTELLECTUAL PROPERTY
-**Son Güncelleme / Last Updated: 16 Temmuz / July 16, 2025**
-
-**Yazar / Author**: Adil Maviş (Çocuk Gelişimi Uzmanı/SHU / Child Development Specialist/SHU)  
-**Seslendiren / Voice Over**: Fatma Maviş (Türk Dili ve Edebiyatı Öğretmeni/Sosyolog/SHU / Turkish Language and Literature Teacher/Sociologist/SHU)  
-**Kitap / Book**: Terapötik Masallar / Therapeutic Tales (Yazar/Author: Adil Maviş / Yayın Evi/Publisher: 5.Boyut Yayınları / 2025)  
-
-* Tüm ses içeriği hakları münhasıran Fatma MAVİŞ'e aittir / All audio content rights exclusively belong to Fatma MAVİŞ
-* Tüm görseller yapay zeka araçları kullanılarak oluşturulmuştur / All images are created using artificial intelligence tools
-* Harmonia Kids mobil uygulaması ve içerikleri Fatma MAVİŞ'e aittir / Harmonia Kids mobile application and its contents belong to Fatma MAVİŞ
-
----
-
-# KULLANIM SÖZLEŞMESİ / TERMS OF USE
-**Son Güncelleme / Last Updated: 17 Mart / March 17, 2026**
-
-## 1. Lisans / License
-Kullanıcılara, uygulamayı kişisel, ticari olmayan amaçlarla kullanmaları için sınırlı, münhasır olmayan bir lisans verilir. / Users are granted a limited, non-exclusive license to use the application for personal, non-commercial purposes.
-
-## 2. Kullanım Kısıtlamaları / Usage Restrictions
-Kullanıcılar / Users may not:
-* Uygulamayı kopyalayamaz veya değiştiremez / Copy or modify the application
-* Uygulamadan herhangi bir içeriği dağıtamaz veya satamaz / Distribute or sell any content from the application
-* Kaynak kodu çıkarmaya teşebbüs edemez / Attempt to extract source code
-* Uygulamayı yasa dışı amaçlarla kullanamaz / Use the application for illegal purposes
-
-## 2.1 Veri İşleme Onayı / Data Processing Consent
-Uygulamamızı kullanarak, kişisel verilerinizin Gizlilik Politikamızda belirtilen şartlar, amaçlar ve üçüncü taraf paylaşımları (Meta/Facebook SDK kullanımı dahil) doğrultusunda işlenmesini kabul etmiş olursunuz. Bu kapsamda cihaz kimlikleriniz (IDFA/GAID), uygulama içi etkileşim verileriniz ve kullanım verileriniz reklam ölçümü, analitik ve attribution amaçlarıyla Meta platformları ile paylaşılabilir.
-
-By using our application, you agree to the processing of your personal data in accordance with the terms, purposes, and third-party sharing (including Meta/Facebook SDK usage) specified in our Privacy Policy. In this context, your device identifiers (IDFA/GAID), in-app interaction data, and usage data may be shared with Meta platforms for advertising measurement, analytics, and attribution purposes.
-
-## 3. Hesap Yönetimi / Account Management
-* Kullanıcılar Google veya Apple hesapları aracılığıyla uygulamamıza giriş yapabilirler. / Users can sign into our application through Google or Apple accounts.
-* Kullanıcılar hesaplarını profil sayfasındaki "Hesabımı Sil" seçeneğini kullanarak kalıcı olarak silebilirler. / Users can permanently delete their accounts using the "Delete My Account" option on the profile page.
-* Hesap silindikten sonra, hesap verileri geri getirilemez. / After account deletion, account data cannot be recovered.
-
-## 4. Abonelik Hizmetleri / Subscription Services
-
-### 4.1 Abonelik Türleri / Subscription Types
-* Uygulamamızda aylık ve yıllık abonelik seçenekleri bulunmaktadır. / Our application offers monthly and annual subscription options.
-* Abonelik fiyatları bölgesel olarak farklılık gösterebilir. / Subscription prices may vary regionally.
-* Güncel fiyatlar satın alma sırasında uygulama içinde görüntülenir. / Current prices are displayed within the application at the time of purchase.
-
-### 4.2 Ödeme İşlemleri / Payment Processing
-* Abonelik ödemeleri Google Play Store ve Apple App Store'un kendi ödeme sistemleri (Google Pay/Apple Pay) aracılığıyla gerçekleştirilir. / Subscription payments are processed through Google Play Store and Apple App Store's own payment systems (Google Pay/Apple Pay).
-* Ödeme işlemleri ve fatura bilgileri için ilgili platform sağlayıcısının (Google/Apple) şartları geçerlidir. / Payment processing and billing information are subject to the respective platform provider's (Google/Apple) terms.
-* İlk ödeme abonelik satın alındığı anda gerçekleşir. / Initial payment is charged immediately upon subscription purchase.
-
-### 4.3 Otomatik Yenileme / Auto-Renewal
-* Abonelikler otomatik olarak yenilenir (aylık abonelikler her ay, yıllık abonelikler her yıl). / Subscriptions automatically renew (monthly subscriptions every month, annual subscriptions every year).
-* Otomatik yenilemeyi iptal etmek için, abonelik sona erme tarihinden en az 24 saat önce platform ayarlarınızdan (Google Play Store/Apple App Store) iptal etmeniz gerekir. / To cancel auto-renewal, you must cancel through your platform settings (Google Play Store/Apple App Store) at least 24 hours before the subscription expires.
-* Otomatik yenileme iptal edilmezse, abonelik ücreti mevcut dönemin bitiminden 24 saat önce hesabınızdan tahsil edilir. / If auto-renewal is not cancelled, the subscription fee will be charged to your account 24 hours before the end of the current period.
-
-### 4.4 İptal ve İade / Cancellation and Refunds
-* Abonelik iptali için Google Play Store veya Apple App Store ayarlarınızdan işlem yapmanız gerekir. / To cancel your subscription, you must process through your Google Play Store or Apple App Store settings.
-* İade talepleri Google Play Store ve Apple App Store'un kendi iade politikalarına tabidir. / Refund requests are subject to Google Play Store and Apple App Store's own refund policies.
-* Abonelik iptal edildikten sonra, mevcut dönemin sonuna kadar premium özelliklere erişiminiz devam eder. / After subscription cancellation, your access to premium features continues until the end of the current period.
-* Hesap silme işlemi aboneliği otomatik olarak iptal etmez; abonelik ayrıca iptal edilmelidir. / Account deletion does not automatically cancel subscriptions; subscriptions must be cancelled separately.
-
-### 4.5 Ücretsiz Deneme (Varsa) / Free Trial (If Available)
-* Ücretsiz deneme süresi boyunca hiçbir ücret tahsil edilmez. / No charges are made during the free trial period.
-* Ücretsiz deneme süresinin bitiminden 24 saat önce iptal edilmezse, seçilen abonelik otomatik olarak başlar ve ücret tahsil edilir. / If not cancelled 24 hours before the end of the free trial period, the selected subscription automatically begins and charges apply.
-* Ücretsiz deneme hakkı kullanıcı başına bir kez kullanılabilir. / Free trial rights can only be used once per user.
-
-### 4.6 Tek Seferlik Satın Alınan Paketler / One-Time Purchase Packages
-
-**Paket Tanımı / Package Definition:**
-* Uygulamamızda tek seferlik satın alınabilen içerik paketleri sunulmaktadır. / Our application offers content packages that can be purchased one-time.
-* Bu paketler abonelik gerektirmez ve tek ödeme ile satın alınır. / These packages do not require subscription and are purchased with a single payment.
-
-**İçerik Erişimi / Content Access:**
-* Satın alınan paket kapsamındaki içeriklere, paket açıklamasında belirtilen süre boyunca erişim sağlanır. / Access to content within the purchased package is provided for the duration specified in the package description.
-* Erişim süresi paket satın alma tarihinden itibaren başlar. / The access period begins from the package purchase date.
-* Süre bitiminde içeriklere erişim sona erer. / Access to content ends when the period expires.
-
-**Paket İçerik Güncelleme Hakkı / Package Content Update Rights:**
-* Satılan paket hakları içerikleri, paket satın alımı sonrasında dahil uzman ekip tarafından paket içerikleri değiştirilebilir veya güncellenebilir. / The content of sold package rights may be changed or updated by the expert team after the package purchase.
-
-**İptal ve İade Politikası / Cancellation and Refund Policy:**
-* Tek seferlik satın alınan paketlerin iptal ve iade işlemleri tamamen Google Play Store ve Apple App Store'un kendi iade politikalarına tabidir. / Cancellation and refund of one-time purchase packages are entirely subject to Google Play Store and Apple App Store's own refund policies.
-* İade talepleri için ilgili platform sağlayıcısına (Google/Apple) başvurulmalıdır. / For refund requests, please contact the relevant platform provider (Google/Apple).
-* Uygulama içinden doğrudan iade işlemi yapılamamaktadır. / Direct refunds cannot be processed from within the application.
-
-**Platform İade Politikaları / Platform Refund Policies:**
-* Apple App Store: https://support.apple.com/tr-tr/HT204084
-* Google Play Store: https://support.google.com/googleplay/answer/2479637
-
-## 5. Pazarlama İletişimi ve Bildirimler / Marketing Communications and Notifications
-
-### 5.1 Bülten Sistemi / Newsletter System
-E-posta ve uygulama içi bildirimler aracılığıyla pazarlama iletişimi yapılmaktadır. / Marketing communications are conducted through email and in-app notifications.
-
-**İletişim Kapsamı / Communication Scope:**
-* ✅ Uygulama içi ürün ve içerik tanıtımları / In-app product and content promotions
-* ✅ Yeni özellik ve içerik duyuruları / New feature and content announcements
-* ✅ Özel kampanya ve teklifler / Special campaigns and offers
-* ✅ Uygulama güncellemeleri / App updates
-* ❌ Üçüncü taraf reklam veya tanıtımlar YAPILMAZ / Third-party advertisements or promotions are NOT made
-
-### 5.2 Açık Rıza / Explicit Consent
-* Bir kullanıcı sisteme kaydolduğunda, e-posta ve bildirim bültenine kaydolmayı açık rıza göstererek kabul eder. / When a user registers to the system, they accept enrollment in email and notification newsletters by providing explicit consent.
-* Kayıt işlemi sırasında kullanıcı bu koşulları kabul etmiş sayılır. / By registering, the user is considered to have accepted these terms.
-
-### 5.3 Abonelikten Ayrılma / Unsubscribing
-
-**Bildirimler / Notifications:**
-* Kullanıcılar cihaz ayarlarından uygulama bildirimlerini kapatabilir. / Users can disable app notifications from device settings.
-* iOS: Ayarlar > Bildirimler > Harmonia Kids / iOS: Settings > Notifications > Harmonia Kids
-* Android: Ayarlar > Uygulamalar > Harmonia Kids > Bildirimler / Android: Settings > Apps > Harmonia Kids > Notifications
-
-**E-posta Bülteni / Email Newsletter:**
-* Profil sayfasında bulunan "Mail Bülteninden Ayrıl" butonu ile kolayca ayrılabilirsiniz. / You can easily unsubscribe via the "Unsubscribe from Newsletter" button on the profile page.
-* Ayrılma işlemi anında geçerli olur. / Unsubscription takes effect immediately.
-* E-posta bülteninden ayrılma, uygulama içi bildirimleri etkilemez. / Unsubscribing from email newsletter does not affect in-app notifications.
-
-## 6. İçerik / Content
-* İçerik belirli yaş grupları için kategorize edilmiştir: 0-3, 4-7, 8-11 ve 12-14 yaş / Content is categorized for specific age groups: 0-3, 4-7, 8-11, and 12-14 years
-* Tüm terapötik sesli masallar tescilli içeriktir / All therapeutic audio stories are proprietary content
-* Görseller kullanıcı deneyimini geliştirmek için yapay zeka ile oluşturulmuştur / Images are created with artificial intelligence to enhance user experience
-
----
-
-**Bu dokümantasyon COPPA ve GDPR gerekliliklerini karşılamak üzere hazırlanmıştır. / This documentation is prepared to meet COPPA and GDPR requirements.**
-
-**İletişim / Contact**: privacy@harmoniakids.com
+**© 2026 Harmonia Global / Harmonia Life. Tüm hakları saklıdır / All rights reserved.**
